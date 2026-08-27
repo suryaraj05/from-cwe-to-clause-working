@@ -5,7 +5,7 @@
 **Profiles:** `cat-profiles-v0.1-2026-08-27`  
 **Rule under test:** `cell-coding-rule` v0.2 → fold → **v0.3-frozen**  
 **Coder_a:** research assistant (this session)  
-**Coder_b:** *not run this session* — main-matrix dual coding still required before reporting kappa  
+**Coder_b:** independent main-matrix pass completed 2026-08-27 — see `main-matrix.md` (pilot cells remain handling A / excluded from κ)  
 **Pilot handling:** **A** — these pilot cells are excluded from reported reliability statistics; main pass re-codes after freeze if needed  
 
 Expectations were sealed in `pilot-expectations.md` before this coding pass.

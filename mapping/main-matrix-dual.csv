@@ -1,0 +1,171 @@
+cat,ob,coder_a,coder_a_sub,coder_a_just,coder_b,coder_b_sub,coder_b_just,agree,pilot_exclude
+CAT-01,A-006-01,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-02,A-006-01,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-03,A-006-01,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-04,A-006-01,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-05,A-006-01,partially_covered,partial_positive,Shared: limiting unnecessary sensitive-data exposure/collection. Missing: purpose-bound consent.,not_visible,—,(coder_b),0,1
+CAT-06,A-006-01,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-07,A-006-01,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-08,A-006-01,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-09,A-006-01,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-10,A-006-01,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-01,A-006-04,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-02,A-006-04,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-03,A-006-04,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-04,A-006-04,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-05,A-006-04,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-06,A-006-04,partially_covered,partial_positive,Shared: user-facing auth/access controls. Missing: comparable-ease withdrawal.,not_visible,—,(coder_b),0,0
+CAT-07,A-006-04,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-08,A-006-04,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-09,A-006-04,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-10,A-006-04,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-01,A-006-06,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-02,A-006-06,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-03,A-006-06,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-04,A-006-06,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-05,A-006-06,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-06,A-006-06,partially_covered,partial_positive,Shared: access control / stopping access. Missing: consent-basis cessation + processors.,not_visible,—,(coder_b),0,1
+CAT-07,A-006-06,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-08,A-006-06,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-09,A-006-06,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-10,A-006-06,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-01,R-003-01,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,1
+CAT-02,R-003-01,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-03,R-003-01,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-04,R-003-01,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-05,R-003-01,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-06,R-003-01,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-07,R-003-01,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-08,R-003-01,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-09,R-003-01,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-10,R-003-01,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-01,R-003-02,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-02,R-003-02,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-03,R-003-02,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-04,R-003-02,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-05,R-003-02,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-06,R-003-02,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-07,R-003-02,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-08,R-003-02,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-09,R-003-02,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-10,R-003-02,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-01,R-003-03,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-02,R-003-03,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-03,R-003-03,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-04,R-003-03,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-05,R-003-03,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-06,R-003-03,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-07,R-003-03,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-08,R-003-03,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-09,R-003-03,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-10,R-003-03,not_visible,—,Notice content obligations not in category CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-01,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,partially_covered,partial_positive,(coder_b) safeguard slice; not full reasonable-safeguards bar.,1,0
+CAT-02,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,partially_covered,partial_positive,(coder_b) safeguard slice; not full reasonable-safeguards bar.,1,0
+CAT-03,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,partially_covered,partial_positive,(coder_b) safeguard slice; not full reasonable-safeguards bar.,1,0
+CAT-04,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,partially_covered,partial_positive,(coder_b) safeguard slice; not full reasonable-safeguards bar.,1,0
+CAT-05,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,partially_covered,partial_positive,(coder_b) safeguard slice; not full reasonable-safeguards bar.,1,0
+CAT-06,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,partially_covered,partial_positive,(coder_b) safeguard slice; not full reasonable-safeguards bar.,1,0
+CAT-07,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,partially_covered,partial_positive,(coder_b) safeguard slice; not full reasonable-safeguards bar.,1,0
+CAT-08,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,partially_covered,partial_positive,(coder_b) safeguard slice; not full reasonable-safeguards bar.,1,0
+CAT-09,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,partially_covered,partial_positive,(coder_b) safeguard slice; not full reasonable-safeguards bar.,1,0
+CAT-10,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,partially_covered,partial_positive,(coder_b) safeguard slice; not full reasonable-safeguards bar.,1,0
+CAT-01,R-006-01,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-02,R-006-01,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-03,R-006-01,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-04,R-006-01,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-05,R-006-01,partially_covered,partial_positive,Shared: protecting sensitive data. Missing: specific encryption/masking/token menu.,not_visible,—,(coder_b),0,1
+CAT-06,R-006-01,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-07,R-006-01,fully_covered,—,"Crypto RCM entails securing data via sound encryption, satisfying r.6(1)(a) encryption alternative.",partially_covered,partial_positive,(coder_b) crypto shares encryption-strength; does not guarantee PD encryption/masking/tokens as required.,0,1
+CAT-08,R-006-01,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-09,R-006-01,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-10,R-006-01,not_visible,—,RCM category-clean with no criterion evidence.,not_visible,—,(coder_b),1,0
+CAT-01,R-006-02,not_visible,—,No Bašić inventory assesses access-log existence; CWE-117 ≠ existence.,not_visible,—,(coder_b),1,0
+CAT-02,R-006-02,not_visible,—,No Bašić inventory assesses access-log existence; CWE-117 ≠ existence.,not_visible,—,(coder_b),1,0
+CAT-03,R-006-02,not_visible,—,No Bašić inventory assesses access-log existence; CWE-117 ≠ existence.,not_visible,—,(coder_b),1,1
+CAT-04,R-006-02,not_visible,—,No Bašić inventory assesses access-log existence; CWE-117 ≠ existence.,not_visible,—,(coder_b),1,0
+CAT-05,R-006-02,not_visible,—,No Bašić inventory assesses access-log existence; CWE-117 ≠ existence.,not_visible,—,(coder_b),1,0
+CAT-06,R-006-02,not_visible,—,No Bašić inventory assesses access-log existence; CWE-117 ≠ existence.,not_visible,—,(coder_b),1,0
+CAT-07,R-006-02,not_visible,—,No Bašić inventory assesses access-log existence; CWE-117 ≠ existence.,not_visible,—,(coder_b),1,0
+CAT-08,R-006-02,not_visible,—,No Bašić inventory assesses access-log existence; CWE-117 ≠ existence.,not_visible,—,(coder_b),1,0
+CAT-09,R-006-02,not_visible,—,No Bašić inventory assesses access-log existence; CWE-117 ≠ existence.,not_visible,—,(coder_b),1,0
+CAT-10,R-006-02,not_visible,—,No Bašić inventory assesses access-log existence; CWE-117 ≠ existence.,not_visible,—,(coder_b),1,1
+CAT-01,A-008-06,not_visible,—,Breach intimation not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-02,A-008-06,not_visible,—,Breach intimation not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-03,A-008-06,not_visible,—,Breach intimation not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-04,A-008-06,not_visible,—,Breach intimation not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-05,A-008-06,not_visible,—,Breach intimation not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-06,A-008-06,not_visible,—,Breach intimation not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-07,A-008-06,not_visible,—,Breach intimation not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-08,A-008-06,not_visible,—,Breach intimation not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-09,A-008-06,not_visible,—,Breach intimation not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-10,A-008-06,not_visible,—,Breach intimation not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-01,R-007-01,not_visible,—,Principal breach-notice content not in category vocabulary.,not_visible,—,(coder_b),1,1
+CAT-02,R-007-01,not_visible,—,Principal breach-notice content not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-03,R-007-01,not_visible,—,Principal breach-notice content not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-04,R-007-01,not_visible,—,Principal breach-notice content not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-05,R-007-01,not_visible,—,Principal breach-notice content not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-06,R-007-01,not_visible,—,Principal breach-notice content not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-07,R-007-01,not_visible,—,Principal breach-notice content not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-08,R-007-01,not_visible,—,Principal breach-notice content not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-09,R-007-01,not_visible,—,Principal breach-notice content not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-10,R-007-01,not_visible,—,Principal breach-notice content not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-01,R-007-02,not_visible,—,Board intimation timing/detail not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-02,R-007-02,not_visible,—,Board intimation timing/detail not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-03,R-007-02,not_visible,—,Board intimation timing/detail not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-04,R-007-02,not_visible,—,Board intimation timing/detail not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-05,R-007-02,not_visible,—,Board intimation timing/detail not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-06,R-007-02,not_visible,—,Board intimation timing/detail not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-07,R-007-02,not_visible,—,Board intimation timing/detail not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-08,R-007-02,not_visible,—,Board intimation timing/detail not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-09,R-007-02,not_visible,—,Board intimation timing/detail not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-10,R-007-02,not_visible,—,Board intimation timing/detail not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-01,A-008-07,not_visible,—,Erasure on withdrawal/purpose-end not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-02,A-008-07,not_visible,—,Erasure on withdrawal/purpose-end not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-03,A-008-07,not_visible,—,Erasure on withdrawal/purpose-end not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-04,A-008-07,not_visible,—,Erasure on withdrawal/purpose-end not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-05,A-008-07,not_visible,—,Erasure on withdrawal/purpose-end not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-06,A-008-07,not_visible,—,Erasure on withdrawal/purpose-end not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-07,A-008-07,not_visible,—,Erasure on withdrawal/purpose-end not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-08,A-008-07,not_visible,—,Erasure on withdrawal/purpose-end not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-09,A-008-07,not_visible,—,Erasure on withdrawal/purpose-end not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-10,A-008-07,not_visible,—,Erasure on withdrawal/purpose-end not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-01,A-016-01,not_visible,—,Transfer restriction mechanism not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-02,A-016-01,not_visible,—,Transfer restriction mechanism not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-03,A-016-01,not_visible,—,Transfer restriction mechanism not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-04,A-016-01,not_visible,—,Transfer restriction mechanism not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-05,A-016-01,not_visible,—,Transfer restriction mechanism not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-06,A-016-01,not_visible,—,Transfer restriction mechanism not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-07,A-016-01,not_visible,—,Transfer restriction mechanism not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-08,A-016-01,not_visible,—,Transfer restriction mechanism not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-09,A-016-01,not_visible,—,Transfer restriction mechanism not in category vocabulary.,not_visible,—,(coder_b),1,1
+CAT-10,A-016-01,not_visible,—,Transfer restriction mechanism not in category vocabulary.,not_visible,—,(coder_b),1,0
+CAT-01,HDMP-15-04,not_visible,—,Health ID linkage not entailed by category CWEs.,not_visible,—,(coder_b),1,0
+CAT-02,HDMP-15-04,not_visible,—,Health ID linkage not entailed by category CWEs.,not_visible,—,(coder_b),1,0
+CAT-03,HDMP-15-04,not_visible,—,Health ID linkage not entailed by category CWEs.,not_visible,—,(coder_b),1,0
+CAT-04,HDMP-15-04,not_visible,—,Health ID linkage not entailed by category CWEs.,not_visible,—,(coder_b),1,0
+CAT-05,HDMP-15-04,not_visible,—,Health ID linkage not entailed by category CWEs.,not_visible,—,(coder_b),1,1
+CAT-06,HDMP-15-04,not_visible,—,Health ID linkage not entailed by category CWEs.,not_visible,—,(coder_b),1,0
+CAT-07,HDMP-15-04,not_visible,—,Health ID linkage not entailed by category CWEs.,not_visible,—,(coder_b),1,0
+CAT-08,HDMP-15-04,not_visible,—,Health ID linkage not entailed by category CWEs.,not_visible,—,(coder_b),1,0
+CAT-09,HDMP-15-04,not_visible,—,Health ID linkage not entailed by category CWEs.,not_visible,—,(coder_b),1,0
+CAT-10,HDMP-15-04,not_visible,—,Health ID linkage not entailed by category CWEs.,not_visible,—,(coder_b),1,0
+CAT-01,HDMP-27-05a,not_visible,—,Audit-trail existence not in category CWE inventory (CWE-117 trap if CAT-10).,not_visible,—,(coder_b),1,0
+CAT-02,HDMP-27-05a,not_visible,—,Audit-trail existence not in category CWE inventory (CWE-117 trap if CAT-10).,not_visible,—,(coder_b),1,0
+CAT-03,HDMP-27-05a,not_visible,—,Audit-trail existence not in category CWE inventory (CWE-117 trap if CAT-10).,not_visible,—,(coder_b),1,0
+CAT-04,HDMP-27-05a,not_visible,—,Audit-trail existence not in category CWE inventory (CWE-117 trap if CAT-10).,not_visible,—,(coder_b),1,0
+CAT-05,HDMP-27-05a,not_visible,—,Audit-trail existence not in category CWE inventory (CWE-117 trap if CAT-10).,not_visible,—,(coder_b),1,0
+CAT-06,HDMP-27-05a,not_visible,—,Audit-trail existence not in category CWE inventory (CWE-117 trap if CAT-10).,not_visible,—,(coder_b),1,0
+CAT-07,HDMP-27-05a,not_visible,—,Audit-trail existence not in category CWE inventory (CWE-117 trap if CAT-10).,not_visible,—,(coder_b),1,0
+CAT-08,HDMP-27-05a,not_visible,—,Audit-trail existence not in category CWE inventory (CWE-117 trap if CAT-10).,not_visible,—,(coder_b),1,0
+CAT-09,HDMP-27-05a,not_visible,—,Audit-trail existence not in category CWE inventory (CWE-117 trap if CAT-10).,not_visible,—,(coder_b),1,0
+CAT-10,HDMP-27-05a,not_visible,—,Audit-trail existence not in category CWE inventory (CWE-117 trap if CAT-10).,not_visible,—,(coder_b),1,1
+CAT-01,NRCES-FHIR-01,not_visible,—,NRCeS profile conformance absent from CWE vocabulary.,not_visible,—,(coder_b),1,1
+CAT-02,NRCES-FHIR-01,not_visible,—,NRCeS profile conformance absent from CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-03,NRCES-FHIR-01,not_visible,—,NRCeS profile conformance absent from CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-04,NRCES-FHIR-01,not_visible,—,NRCeS profile conformance absent from CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-05,NRCES-FHIR-01,not_visible,—,NRCeS profile conformance absent from CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-06,NRCES-FHIR-01,not_visible,—,NRCeS profile conformance absent from CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-07,NRCES-FHIR-01,not_visible,—,NRCeS profile conformance absent from CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-08,NRCES-FHIR-01,not_visible,—,NRCeS profile conformance absent from CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-09,NRCES-FHIR-01,not_visible,—,NRCeS profile conformance absent from CWE vocabulary.,not_visible,—,(coder_b),1,0
+CAT-10,NRCES-FHIR-01,not_visible,—,NRCeS profile conformance absent from CWE vocabulary.,not_visible,—,(coder_b),1,0

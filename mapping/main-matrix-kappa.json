@@ -1,0 +1,41 @@
+{
+  "n_cells_total": 170,
+  "n_kappa": 158,
+  "n_pilot_excluded": 12,
+  "po": 0.9937,
+  "kappa_unweighted": 0.949,
+  "kappa_linear_weighted": 0.949,
+  "coder_a_counts": {
+    "not_visible": 155,
+    "partially_covered": 14,
+    "fully_covered": 1
+  },
+  "coder_b_counts": {
+    "not_visible": 159,
+    "partially_covered": 11
+  },
+  "n_disagreements_nonpilot": 1,
+  "disagreements": [
+    {
+      "cat": "CAT-06",
+      "ob": "A-006-04",
+      "a": "partially_covered",
+      "a_sub": "partial_positive",
+      "b": "not_visible",
+      "b_sub": "\u2014",
+      "a_just": "Shared: user-facing auth/access controls. Missing: comparable-ease withdrawal.",
+      "b_just": "(coder_b)"
+    }
+  ],
+  "confusion_a_rows_b_cols_labels_0N_1P_2F": {
+    "0_0": 147,
+    "0_1": 0,
+    "0_2": 0,
+    "1_0": 1,
+    "1_1": 10,
+    "1_2": 0,
+    "2_0": 0,
+    "2_1": 0,
+    "2_2": 0
+  }
+}
