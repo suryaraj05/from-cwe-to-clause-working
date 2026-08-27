@@ -37,7 +37,7 @@ If a citation has no corresponding file, drop the citation.
 | Matrix + reconciliation | Done (agent); human coder pending |
 | Five deliverables | All have v0.1 drafts — see `validation/project-status.md` |
 | Delphi / case study | Protocols only |
-| Paper | Structural drafts in `paper/` — team rewrite |
+| Paper | Integrated draft: `paper/draft-manuscript.md` — team rewrite |
 
 **Team checklist when available:** `validation/human-next-steps.md`
 

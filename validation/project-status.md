@@ -36,6 +36,7 @@ Legend: **Done** · **Draft (agent)** — usable structure, team must rewrite ·
 
 | Section | Status | File |
 |---|---|---|
+| **Integrated manuscript** | **Draft (agent)** — **start here** | `paper/draft-manuscript.md` |
 | Abstract | **Draft (agent)** | `paper/00-abstract.md` |
 | Introduction | **Draft (agent)** | `paper/01-introduction.md` |
 | Background / related work | **Draft (agent)** | `paper/02-background-related-work.md` |
@@ -61,7 +62,7 @@ Legend: **Done** · **Draft (agent)** — usable structure, team must rewrite ·
 - Coverage ratio (MVP scope counts)
 - Delphi protocol (design only)
 - Case-study protocol (template only)
-- Paper stubs → structural drafts (abstract through conclusion, artifact, references)
+- Paper integrated manuscript + section splits
 - Updated README status block
 
 ---
