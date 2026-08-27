@@ -26,7 +26,7 @@
 | OB-ABDM-NRCES-FHIR-01 | ABDM FHIR | NRCeS_FHIR_IG | IG v6.5.0 profiles | Interchange resources declare/conform to applicable NRCeS ABDM StructureDefinition profiles (package `ndhm.in#6.5.0`) | Do exchanged FHIR resources carry/validate against the relevant ABDM profile (e.g. `meta.profile` / StructureDefinition expectations)? | n/a | n/a | **IG v6.5.0 (generated 8 May 2025)** | fhir_conformance |
 | OB-ABDM-HDMP-16-04 | ABDM identity (org) | ABDM_HDMP | cl.16.4 | No denial of health facility/service merely for lacking/not disclosing Health ID / non-participation | Can care proceed without requiring Health ID creation/disclosure? | n/a (policy) | n/a | **policy — HDMP** | abha_identity |
 
-**Note on OB-ABDM-HDMP-16-04:** Strong candidate for `criterion_underspecified` if treated as code-pattern criterion — it is primarily an organisational service-delivery rule. Kept for flag exercise; **not** a substitute for technical ABDM rows above.
+**OB-ABDM-HDMP-16-04 status:** Pilot P12 → `criterion_underspecified` as a *code-pattern* criterion. Retain as **organisational policy** row (`org_policy_not_code_pattern`); do not put in Gap-1 matrix proper until rewritten to a code-visible gate (if ever).
 
 ### Quoted anchors (additions / logging)
 
