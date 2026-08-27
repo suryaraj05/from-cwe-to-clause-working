@@ -1,3 +1,14 @@
-﻿# README
+﻿# Delphi validation folder
 
-Status: stub. Write in paper/deliverable shape; do not invent citations or clause numbers.
+**Status:** protocol only — study not executed.
+
+| File | Purpose |
+|---|---|
+| [`protocol.md`](protocol.md) | Two-round expert Delphi design |
+
+When the team runs the study, add (private working repo as needed):
+
+- `panel-log.md` — recruitment (may redact in public artifact)  
+- `round1-summary.md` / `round2-summary.md` — aggregated results  
+
+Do not invent expert scores.

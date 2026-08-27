@@ -30,6 +30,17 @@ No application code.
 
 If a citation has no corresponding file, drop the citation.
 
+## Project status (2026-08-27)
+
+| Area | State |
+|---|---|
+| Matrix + reconciliation | Done (agent); human coder pending |
+| Five deliverables | All have v0.1 drafts — see `validation/project-status.md` |
+| Delphi / case study | Protocols only |
+| Paper | Structural drafts in `paper/` — team rewrite |
+
+**Team checklist when available:** `validation/human-next-steps.md`
+
 ## Public artifact excludes
 - Third-party publisher PDFs (IEEE / MISQ / EJIS / Springer mirrors).
 - Application code, notebooks, tooling.

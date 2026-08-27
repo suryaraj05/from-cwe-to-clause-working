@@ -1,6 +1,6 @@
 # Obligation-level dimension definitions (draft)
 
-These extend Bašić & Giaretta’s ten technical categories. Full Nickerson validation lives in `extended-taxonomy.md` later.
+These extend Bašić & Giaretta’s ten technical categories. Nickerson objective checklist: [`nickerson-ending-conditions.md`](nickerson-ending-conditions.md). Full structure: [`extended-taxonomy.md`](extended-taxonomy.md).
 
 | Dimension | One-line intent (draft — not yet Nickerson-validated) |
 |---|---|

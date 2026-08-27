@@ -1,55 +1,44 @@
 # Human next steps (post agent pass)
 
-Items the research team should do; not automatable to publication standard.
+Items the **research team** must do when available. Agent-completable documentary work is tracked in [`project-status.md`](project-status.md).
 
-**Agent pass completed (2026-08-27):** main dual coding, κ computation, reconciliation of 5 disputed cells, consensus matrix, results draft.
-
----
-
-## Priority — before citing κ or consensus in the thesis
-
-| # | Task | Why human | Artifact |
-|---|---|---|---|
-| 1 | **Blind review or re-code by a human second coder** | Publication-grade IRR; agent-as-coder_b is documented but not a substitute for a named team member | Re-code from pinned rule + profiles; compare to `main-matrix-dual.csv` |
-| 2 | **Mentor sign-off on reconciliation** | Five cells were adjudicated; CAT-06×A-006-04 sided with `not_visible` over `Pp` | [`mapping/reconciliation-record.md`](../mapping/reconciliation-record.md) |
-| 3 | **Confirm κ reporting language** | High κ partly from mass `not_visible`; do not over-claim | [`paper/06-threats-to-validity.md`](../paper/06-threats-to-validity.md) |
+**Agent pass completed (2026-08-27):** matrix dual coding + reconciliation; rubric; validation plan/report; coverage ratio; extended taxonomy; Nickerson checklist; Delphi/case-study **protocols**; paper structural drafts.
 
 ---
 
-## Register and instrument quality
+## Blocked until team returns
 
-| # | Task | Notes |
+| Priority | Task | Artifact |
 |---|---|---|
-| 4 | Dual-code obligation register rows themselves | Matrix used MVP criteria; register rows still `draft` in schema sense |
-| 5 | Decide HDMP-16-04 fate | Pilot P12 flagged `criterion_underspecified`; keep as org-policy row or rewrite to code-visible gate |
-| 6 | Page-stamp any remaining `clause_id_verified=false` | [`register/page-stamps.md`](../register/page-stamps.md) |
+| **P1** | Human second coder (matrix) | Compare to `main-matrix-dual.csv` |
+| **P1** | Mentor sign-off on reconciliation | `mapping/reconciliation-record.md` |
+| **P2** | Documentary case study | `validation/case-study.md` → need audit report + permission |
+| **P2** | Expert Delphi (2 rounds) | `validation/delphi/protocol.md` → need panel |
+| **P3** | Dual-code register rows | `register/obligation-register.md` |
+| **P3** | Rewrite paper in mentor voice | `paper/*.md` drafts |
+| **P3** | Final citation verification | `paper/references.md`, institutional MISQ copy |
 
 ---
 
-## Evaluation track (Hevner)
+## Already done (agent — no team needed to *start*)
 
-| # | Task | Notes |
-|---|---|---|
-| 7 | Two-round expert Delphi | Rubric + sample cells; not started |
-| 8 | Documentary case study | Existing hospital audit report; not started |
-| 9 | Coverage ratio register vs sources | Count obligations extracted vs instrument scope |
+See full tracker: [`project-status.md`](project-status.md)
 
----
-
-## Paper / deliverable
-
-| # | Task | Notes |
-|---|---|---|
-| 10 | Merge [`paper/05-results.md`](../paper/05-results.md) into mentor voice | Agent draft is structural; team rewrites |
-| 11 | Abstract + introduction alignment | Matrix counts must match reconciled CSV |
-| 12 | References: final pin Bašić v4 + gazette citations | No invented clause numbers |
+- Cross-mapping matrix + κ + reconciliation  
+- Gap 1 + WASA findings  
+- Assessment rubric + scoring protocol  
+- Partial validation report  
+- Coverage ratio (MVP)  
+- Extended taxonomy + Nickerson objective checklist  
+- Paper sections 00–07 (draft prose)
 
 ---
 
-## Optional — if human re-code diverges
+## Optional when team returns
 
-1. Log new disagreements in [`logs/disagreement-record.md`](../logs/disagreement-record.md).  
-2. Reconcile or re-run κ on human–human pair.  
-3. Bump rule version only if a **real rule defect** is found (not cosmetic).
+- Expand register beyond MVP  
+- HDMP-16-04: keep org-policy vs rewrite to code-visible gate  
+- FHIR row: stamp exact `meta.profile` wording from StructureDefinition page  
+- Re-run κ on human–human pair if second coder diverges
 
-**Do not** treat agent reconciliation as final without at least mentor review (item 2).
+**Do not** treat agent reconciliation or κ as publication-final without P1 items above.

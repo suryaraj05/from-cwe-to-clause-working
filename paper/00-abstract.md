@@ -1,3 +1,7 @@
-﻿# 00 abstract
+﻿# Abstract
 
-Status: stub. Write in paper/deliverable shape; do not invent citations or clause numbers.
+**Status:** draft — team rewrite; counts verified against reconciled matrix 2026-08-27.
+
+Healthcare teams in India increasingly use AI coding assistants, yet security research consolidates LLM-generated vulnerabilities into CWE-shaped categories without Indian regulatory vocabulary. We design and evaluate a documentary assessment framework that maps Bašić and Giaretta’s ten vulnerability categories (arXiv:2412.15004v4; 21 studies) against atomic obligations derived from the Digital Personal Data Protection Act 2023, DPDP Rules 2025, and ABDM health-data instruments. Following GuideMe-style obligation extraction and a frozen counterfactual-visibility coding rule, we dual-code a 10×17 cross-mapping matrix (170 cells). Inter-rater agreement is high (linearly weighted κ = 0.949 on 158 non-pilot cells), but agreement is dominated by shared `not_visible` outcomes: 156 of 170 reconciled cells show that remediated-under-category assessment does not guarantee the regulatory criterion. The clearest structural gap is access-logging demonstrability—DPDP Rules r.6(1)(c) and ABDM HDMP cl.27.5(a) require visibility of personal-data access, yet no Bašić category assesses log existence (20/20 matrix cells `not_visible`). We extend the taxonomy with obligation-level dimensions, provide an assessment rubric for documentary evidence, and report the absence of a public WASA specification as a regulatory-transparency finding. Pattern assessment is necessary but not sufficient for legal compliance.
+
+**Keywords:** DPDP Act 2023; ABDM; LLM-generated code; CWE; regulatory compliance; design science; cross-mapping.
