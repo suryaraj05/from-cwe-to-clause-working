@@ -30,4 +30,4 @@
 | 2026-08-27 | Page-stamped Act/Rules/HDMP loci (`register/page-stamps.md`) | Pre-pilot | local PDFs |
 | 2026-08-27 | Pilot stress-test 13 cells (`pilot-worksheet.md`); P05 expectation miss; P12 underspec confirmed | Instrument test | mapping |
 | 2026-08-27 | Folded real defect: removed “logging” as example shared observable in partial test | Contradicted capability note | `cell-coding-rule` |
-| 2026-08-27 | **FROZE** cell-coding-rule **v0.3-frozen**; pin register-v0.3-mvp + cat-profiles-v0.1; pilot handling **A**; main dual-coding still required for kappa | User authorized next items | `mapping/cell-coding-rule.md` |
+| 2026-08-27 | **FROZE** cell-coding-rule **v0.3-frozen**; pin register-v0.3-mvp + cat-profiles-v0.1; pilot handling **A**; SHA-256 `904b24b50e35fdbbe9b58b72b2f23e82b1ba6be742b8ec547ea3277b4e757eb8`; main dual-coding still required for kappa | User authorized next items | `mapping/cell-coding-rule.md` |
