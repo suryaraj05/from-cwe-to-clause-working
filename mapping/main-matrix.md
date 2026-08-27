@@ -81,5 +81,13 @@ All CAT × {R-003-01, R-003-02, R-003-03, A-008-06, R-007-01, R-007-02, A-008-07
 
 ## Reconciliation status
 
-**Not reconciled yet.** Both originals retained. Non-pilot disagreement and pilot disagreements logged in [`../logs/disagreement-record.md`](../logs/disagreement-record.md).  
-Working Gap-1 narrative continues to rest on the **agreed** N/N logging columns, which are not in dispute.
+**Reconciled 2026-08-27** (5 disputed cells adjudicated). Consensus table: [`main-matrix-reconciled.csv`](main-matrix-reconciled.csv) · record: [`reconciliation-record.md`](reconciliation-record.md).
+
+| Consensus | *n* |
+|---|---|
+| `not_visible` | 156 |
+| `partially_covered` (all `partial_positive`) | 13 |
+| `fully_covered` | 1 |
+
+**Human validation pending** — mentor review + human second coder ([`../validation/human-next-steps.md`](../validation/human-next-steps.md)).  
+Gap-1 logging columns remain **undisputed N/N → consensus N**.

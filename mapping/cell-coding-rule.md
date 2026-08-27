@@ -8,7 +8,7 @@
 **Content hash (SHA-256, first 16 hex):** see freeze fill-in below / decision log  
 **Pilot handling:** **A** (pilot cells excluded from reported kappa; see `pilot-worksheet.md`)
 
-Main dual coding of the matrix still requires independent `coder_a` / `coder_b` humans under this frozen rule.
+Main dual coding of the matrix was run under this frozen rule (agent pass, 2026-08-27); **human second-coder validation is still required** before publication-grade IRR claims (`validation/human-next-steps.md`).
 
 ---
 

@@ -40,4 +40,4 @@ Coverage ratio of register vs source instruments; dual coding + weighted kappa; 
 | Nickerson et al. | extended taxonomy + ending-condition checklist |
 | Hevner et al. | artifact set + `validation/` |
 | Bašić & Giaretta v4 | category profiles + matrix rows |
-| Cell-coding rule | `mapping/cell-coding-rule.md` (freeze pending pilot) |
+| Cell-coding rule | `mapping/cell-coding-rule.md` (frozen v0.3; main matrix dual-coded + reconciled) |

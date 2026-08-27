@@ -9,7 +9,7 @@
 
 **Pilot cells:** excluded from kappa (handling A) — still listed in full matrix for completeness but flagged `pilot_exclude=1` where they match pilot sheet.
 
-**Status (2026-08-27):** dual coding complete → see [`main-matrix.md`](main-matrix.md). Reconciliation not yet done.
+**Status (2026-08-27):** dual coding complete · reconciliation complete → [`main-matrix-reconciled.csv`](main-matrix-reconciled.csv). Human validation: [`../validation/human-next-steps.md`](../validation/human-next-steps.md).
 
 ## Columns in matrix (17)
 

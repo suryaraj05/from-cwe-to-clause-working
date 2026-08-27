@@ -30,4 +30,5 @@ Raw disagreements: `logs/disagreement-record.md` (both originals kept).
 | **Linearly weighted Cohen’s κ (primary)** | **0.949** |
 | Non-pilot disagreements | 1 (CAT-06 × A-006-04) |
 
-**Interpretation caution:** mass `not_visible` agreement inflates κ; see `paper/06-threats-to-validity.md` (agreement ≠ correctness). Reconciliation of the one κ disagreement (and pilot disagreements) is still open.
+**Interpretation caution:** mass `not_visible` agreement inflates κ; see `paper/06-threats-to-validity.md` (agreement ≠ correctness).  
+**Reconciliation:** 5 cells adjudicated 2026-08-27 → `mapping/reconciliation-record.md`. **Human second-coder validation still required** → `validation/human-next-steps.md`.

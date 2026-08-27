@@ -1,0 +1,22 @@
+{
+  "n_cells": 170,
+  "consensus_counts": {
+    "not_visible": 156,
+    "partially_covered": 13,
+    "fully_covered": 1
+  },
+  "partial_positive_n": 13,
+  "partial_by_default_n": 0,
+  "logging_columns_all_not_visible": {
+    "R-006-02": true,
+    "HDMP-27-05a": true
+  },
+  "n_reconciliation_overrides": 5,
+  "overrides": [
+    "CAT-06\u00d7A-006-04",
+    "CAT-05\u00d7A-006-01",
+    "CAT-06\u00d7A-006-06",
+    "CAT-05\u00d7R-006-01",
+    "CAT-07\u00d7R-006-01"
+  ]
+}

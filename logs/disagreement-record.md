@@ -11,22 +11,23 @@ Use when sources conflict (e.g. arXiv version study counts, vendor WASA claims v
 ## Main-matrix dual-coding disagreements (2026-08-27)
 
 Rule pin: `cell-coding-rule` v0.3-frozen · register `register-v0.3-mvp-2026-08-27` · profiles `cat-profiles-v0.1-2026-08-27`.  
-Raw dual table: `mapping/main-matrix-dual.csv`. Both originals kept; **reconciliation pending**.
+Raw dual table: `mapping/main-matrix-dual.csv`. Both coder originals retained.  
+**Reconciled 2026-08-27** → `mapping/main-matrix-reconciled.csv`, `mapping/reconciliation-record.md`.
 
 ### In reported kappa (*n* = 158)
 
-| Cell | coder_a | coder_b | Notes |
-|---|---|---|---|
-| CAT-06 × A-006-04 | `partially_covered` / `partial_positive` — shared user-facing auth/access controls; missing comparable-ease withdrawal | `not_visible` — category-clean with no criterion evidence | Sole non-pilot disagreement |
+| Cell | coder_a | coder_b | **Consensus** | Resolution |
+|---|---|---|---|---|
+| CAT-06 × A-006-04 | Pp | N | **N** | Authn/authz RCM ≠ comparable-ease withdrawal UX; side coder_b |
 
 ### Pilot-excluded (handling A — not in κ)
 
-| Cell | coder_a | coder_b |
-|---|---|---|
-| CAT-05 × A-006-01 | Pp | N |
-| CAT-06 × A-006-06 | Pp | N |
-| CAT-05 × R-006-01 | Pp | N |
-| CAT-07 × R-006-01 | F | Pp |
+| Cell | coder_a | coder_b | **Consensus** | Resolution |
+|---|---|---|---|---|
+| CAT-05 × A-006-01 | Pp | N | **Pp** | Pilot P04; side coder_a |
+| CAT-06 × A-006-06 | Pp | N | **Pp** | Pilot P03; side coder_a |
+| CAT-05 × R-006-01 | Pp | N | **Pp** | Pilot P02; side coder_a |
+| CAT-07 × R-006-01 | F | Pp | **F** | Pilot P01; side coder_a |
 
-Agreed non-default pattern: all CAT × A-008-05 = Pp/Pp.  
-Logging columns R-006-02 and HDMP-27-05a = N/N for all CATs (no disagreement).
+Agreed non-default pattern: all CAT × A-008-05 = Pp/Pp → consensus Pp.  
+Logging columns R-006-02 and HDMP-27-05a = N/N → consensus N (all CATs).
