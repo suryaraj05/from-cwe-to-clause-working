@@ -1,5 +1,7 @@
 # Repository map (markdown-first research artifact)
 
+**Complete project overview:** [`RESEARCH_OVERVIEW.md`](RESEARCH_OVERVIEW.md) — what the research is, what we did, outcomes, pending work, end goal.
+
 **Working copy (private):** full tree including `docs/` PDFs.  
 **Public artifact (cite/deposit):** `register/`, `taxonomy/`, `mapping/`, `rubric/`, `paper/`, `validation/`, `logs/`, `sources.md`, `README`, `PROJECT_BRIEF` — **no third-party publisher PDFs**. Provenance via `sources.md`.
 
