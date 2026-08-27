@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <title>Home - FHIR Implementation Guide for ABDM v6.5.0</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="http://hl7.org/fhir" />
+
+  <link href="fhir.css" rel="stylesheet" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap-fhir.css" rel="stylesheet" />
+
+  <!-- Project extras -->
+  <link href="assets/css/project.css" rel="stylesheet" />
+  <link href="assets/css/pygments-manni.css" rel="stylesheet" />
+  <link href="assets/css/jquery-ui.css" rel="stylesheet" />
+  <link href="assets/css/prism.css" rel="stylesheet" />
+  <link href="assets/css/cqf.css" rel="stylesheet" />
+  <!-- Placeholder for child template CSS declarations -->
+  <link href="assets/css/myproject.css" rel="stylesheet" />
+
+  <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- Favicons -->
+  <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png" />
+  <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png" />
+  <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png" />
+  <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png" />
+  <link rel="shortcut icon" href="assets/ico/favicon.png" />
+</head>
+
+<body onload="document.body.style.opacity='1'">
+
+  <script src="assets/js/prism.js"></script>
+  <script type="text/javascript" src="assets/js/mermaid.js"></script>
+  <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+  <style type="text/css">
+    h2 {
+      --heading-prefix: "1"
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+      --heading-prefix: "1"
+    }
+  </style>
+  <div id="segment-header" class="segment"> <!-- segment-header -->
+    <div class="container"> <!-- container -->
+
+      <!-- Placeholder for child template header declarations -->
+
+      <div id="project-nav">
+        <a id="project-logo" no-external="true" href="http://nrces.in"><img height="100" alt="Visit the Example website"
+            src="assets/images/NRCeS_Logo.png" /> </a>
+      </div>
+
+      <div id="family-nav">
+        <a id="family-logo" no-external="true" href="https://pmjay.gov.in/about/nha"><img height="70" alt="NHA-LOGO"
+            src="assets/images/nha-logo.png" /> </a>
+      </div>
+
+      <div id="ig-status">
+        <p><span style="font-size:12pt;font-weight:bold">FHIR Implementation Guide for ABDM</span>
+          <br />
+          <span style="display:inline-block;">6.5.0 - active
+
+
+
+            <img alt="India flag" src="assets/images/ind.svg" height="16" title="India" />
+
+
+          </span>
+        </p>
+      </div>
+    </div> <!-- /container -->
+  </div> <!-- /segment-header -->
+
+  <div id="segment-navbar" class="segment"> <!-- segment-navbar -->
+    <div id="stripe"> </div>
+    <div class="container"> <!-- container -->
+      <!-- HEADER CONTENT -->
+
+      <nav class="navbar navbar-inverse">
+        <!--status-bar-->
+        <div class="container">
+          <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </button>
+          <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+          <div class="nav-collapse collapse navbar-inverse-collapse">
+            <!-- menu.xml  -->
+
+            <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="profiles.html">ABDM Profiles</a>
+              </li>
+              <li>
+                <a href="hcx-profile.html">NHCX Profiles</a>
+              </li>
+              <li>
+                <a href="extensions.html">Extensions</a>
+              </li>
+              <li>
+                <a href="terminology.html">Terminology</a>
+              </li>
+              <li>
+                <a href="all-examples.html">Examples</a>
+              </li>
+              <li>
+                <a href="downloads.html">Downloads</a>
+              </li>
+            </ul>
+          </div> <!-- /.nav-collapse -->
+        </div> <!-- /.container -->
+      </nav> <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+    </div> <!-- /container -->
+  </div> <!-- /segment-navbar -->
+  <!--status-bar-->
+
+  <div id="segment-breadcrumb" class="segment"> <!-- segment-breadcrumb -->
+    <div class="container"> <!-- container -->
+      <ul class="breadcrumb">
+        <li><a href='toc.html'><b>Table of Contents</b></a></li>
+        <li><b>Home</b></li>
+
+      </ul>
+    </div> <!-- /container -->
+  </div> <!-- /segment-breadcrumb -->
+
+  <a name="top"> </a>
+  <div id="segment-content" class="segment"> <!-- segment-content -->
+    <div class="container"> <!-- container -->
+      <div class="row">
+        <div class="inner-wrapper">
+
+          <div class="container">
+            <img alt="Banner" style="display:inline-block; max-width: 100%; height: auto;"
+              src="assets/images/web-banner-FHIR-ABDM.png" />
+          </div>
+          <style type="text/css">
+            h2:before {
+              color: silver;
+              counter-increment: section;
+              content: var(--heading-prefix) " ";
+            }
+
+            h3:before {
+              color: silver;
+              counter-increment: sub-section;
+              content: var(--heading-prefix) "." counter(sub-section) " ";
+            }
+
+            h4:before {
+              color: silver;
+              counter-increment: composite;
+              content: var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";
+            }
+
+            h5:before {
+              color: silver;
+              counter-increment: detail;
+              content: var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";
+            }
+
+            h6:before {
+              color: silver;
+              counter-increment: more-detail;
+              content: var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";
+            }
+          </style>
+          <div class="col-12">
+            <!--ReleaseHeader-->
+            <p id="publish-box">This page is part of the FHIR Implementation Guide for ABDM (v6.5.0: Release) based on
+              <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current
+              published version. For a full list of available versions, see the <a no-external="true"
+                href="https://nrces.in/ndhm/fhir/r4/history.html">Directory of published versions</a></p>
+            <!--EndReleaseHeader-->
+            <h2>Home</h2>
+
+
+
+
+
+
+
+            <table class="colsd">
+
+              <tr>
+                <td colspan="4"><i>Official URL</i>: <span
+                    class="copy-text">https://nrces.in/ndhm/fhir/r4/ImplementationGuide/ndhm.in<button
+                      title="Click to copy URL" class="btn-copy"
+                      data-clipboard-text="https://nrces.in/ndhm/fhir/r4/ImplementationGuide/ndhm.in" /></span>
+                </td>
+                <td><i>Version</i>:
+                  <span class="copy-text">6.5.0<button title="Click to copy versioned URL" class="btn-copy"
+                      data-clipboard-text="https://nrces.in/ndhm/fhir/r4/ImplementationGuide/ndhm.in|6.5.0" /></span>
+                </td>
+              </tr>
+
+              <tr>
+
+
+
+
+
+
+
+                <td colspan="4">
+
+                  Draft
+
+                  as of 2025-05-08
+
+
+                </td>
+
+
+
+                <td><i>Computable Name</i>: <span style="font-family: monospace;">FHIRImplementationGuideforABDM</span>
+                </td>
+              </tr>
+
+
+
+
+            </table>
+
+
+
+
+
+
+
+
+
+            <p><!-- white space is critical inside of capture --></p>
+            <div class="markdown-toc">
+              <ul id="markdown-toc">
+                <li><a href="#background" id="markdown-toc-background">Background</a></li>
+                <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
+                <li><a href="#purpose-and-scope" id="markdown-toc-purpose-and-scope">Purpose and Scope</a></li>
+                <li><a href="#abdm-actors" id="markdown-toc-abdm-actors">ABDM Actors</a></li>
+                <li><a href="#how-to-read-this-guide" id="markdown-toc-how-to-read-this-guide">How to read this
+                    Guide</a></li>
+                <li><a href="#abdm-profiles" id="markdown-toc-abdm-profiles">ABDM Profiles</a></li>
+              </ul>
+
+            </div>
+
+            <!-- TOC  the css styling for this is \pages\assets\css\project.css under 'markdown-toc'-->
+
+            <!-- Do not remove this line it will not be displayed-->
+
+            <!-- end TOC -->
+            <h3 id="background">Background</h3>
+
+            <p>Enduring with the vision of National Health Policy (NHP) 2017, ‘Health and wellbeing for all at all
+              ages’, <a href="https://mohfw.gov.in/">Ministry of Health and Family Welfare (MoHFW)</a>, Government of
+              India recognized the need for creating a framework for the evolution of a National Digital Health
+              Eco-system (NDHE), which will support ‘Continuum of care’ for an individual.</p>
+
+            <p>To create and enable digital health ecosystem and prioritize digital health in India, and to develop an
+              implementation framework for the National Health Stack, the committee constituted by MoHFW Government of
+              India produced the <a
+                href="https://mohfw.gov.in/newshighlights/final-report-national-digital-health-blueprint-ndhb">National
+                Digital Health Blueprint (NDHB)</a>, laying out the building blocks and an action plan to
+              comprehensively and holistically implement digital health.</p>
+
+            <p>The Government has established the <a href="https://abdm.gov.in/">Ayushman Bharat Digital Mission
+                (ABDM)</a>, with The Ministry of Health and Family Welfare defining the policy and regulatory frameworks
+              with implementation by the <a href="https://pmjay.gov.in/about/nha">National Health Authority (NHA)</a>.
+            </p>
+
+            <p>The vision of ABDM is, to create a national digital health ecosystem that supports universal health
+              coverage in an efficient, accessible, inclusive, affordable, timely and safe manner, that provides a
+              wide-range of data, information and infrastructure services, duly leveraging open, interoperable,
+              standards-based digital systems, and ensures the security, confidentiality and privacy of health-related
+              personal information. This will include adoption of open standards by all the actors in the National
+              Digital Health Eco‐system.</p>
+
+            <h3 id="introduction">Introduction</h3>
+
+            <p>The FHIR Implementation Guide for ABDM Health Data Interchange Specifications 1.0 is based on FHIR
+              Version R4 and defines the minimum conformance requirements for accessing health data to achieve
+              continuity of care in the Indian context.</p>
+
+            <h3 id="purpose-and-scope">Purpose and Scope</h3>
+
+            <p>The purpose of this implementation guide is to provide essential and minimum health record artefacts that
+              can be captured and exchanged as per ABDM Health Data Interchange Specifications 1.0.</p>
+
+            <p>This guide refers to relevant standards and coding systems as specified for implementation of ABDM
+              envisaged under NDHB and other guidelines such as EHR Standards for India (2016), Medical Council of India
+              (MCI), Pharmacy Council of India (PCI), and Health Claim Exchange Platform (NHCX).</p>
+
+            <h3 id="abdm-actors">ABDM Actors</h3>
+
+            <ul>
+              <li>Health information provider (HIP): Any entity that creates health information pertaining to a user and
+                is ready to share it digitally with users by adopting to compliant software.</li>
+              <li>Health information user (HIU): Any entity that intends to view health records of an individual, with
+                their informed consent using compliant software.</li>
+            </ul>
+
+            <p>Technical details on the ABDM ecosystem can be found at the ABDM Sandbox at <a
+                href="https://sandbox.abdm.gov.in/">sandbox.abdm.gov.in</a></p>
+
+            <h3 id="how-to-read-this-guide">How to read this Guide</h3>
+
+            <p>This Guide is divided into several pages which are listed at the top of each page in the menu bar.</p>
+
+            <ul>
+              <li><a href="index.html" title="Home Page">Home</a>: The home page provides the introduction, purpose,
+                scope and list of ABDM profiles for ABDM Health Data Interchange Specifications 1.0.</li>
+              <li>FHIR Artefacts: These pages provide detailed descriptions and formal definitions for all the FHIR
+                objects defined in this guide.
+                <ul>
+                  <li><a href="profiles.html" title="Profiles Page">Profiles</a>: This page lists the set of Profile
+                    that are defined in this guide to exchange quality data. Each page includes a narrative
+                    introduction, formal definition for each profile in FHIR Implementation Guide for ABDM.</li>
+                  <li><a href="terminology.html" title="Terminology Page">Terminology</a>: This page lists the value
+                    sets defined for FHIR Implementation Guide for ABDM profiles.</li>
+                </ul>
+              </li>
+              <li><a href="all-examples.html">Examples</a>: List of links to all the examples used in this guide.</li>
+              <li><a href="downloads.html" title="Downloads Page">Downloads</a>: This page provides links to
+                downloadable artefacts.</li>
+              <li><strong>Things To Consider</strong>
+                <ul>
+                  <li>The systems used in the examples are temporary place holders and the values may be different in
+                    actual implementation</li>
+                  <li>The resource identifiers in the examples are simple number and instead, a point-in-time / system
+                    generated URN / UID can be used. The source may preserve the identifiers for referring the resource
+                    for later purposes</li>
+                  <li>The terminology value set bindings and examples will be provided with subsequent updates in the IG
+                  </li>
+                  <li>MUST Support Elements: The Receiver (HIU) MUST have a capacity to read the element though it is
+                    optional. The Sender (HIP) may opt not to fill the element while sending.</li>
+                </ul>
+              </li>
+            </ul>
+
+            <h3 id="abdm-profiles">ABDM Profiles</h3>
+
+            <p>The list of profiles below defines the minimum mandatory elements and terminology requirements that MUST
+              be present. For each profile, requirements and guidance are given in a simple narrative summary. A formal
+              hierarchical table that presents a logical view of the content in both a differential and snapshot view is
+              also provided along with references to appropriate examples.</p>
+
+            <ul>
+              <li>
+                <strong>Clinical Artifacts</strong>
+                <br />
+                Following clinical artifacts are profiles based on <a
+                  href="http://hl7.org/fhir/R4/composition.html">Composition</a> resource of FHIR R4.0.1:
+                <br /><br />
+
+
+                <table class="table table-bordered table-striped table-hover" style="min-width:620px; width:100%;">
+                  <thead style="background: lightsteelblue; ">
+                    <tr>
+                      <th style="width:20%;">Name</th>
+                      <th style="width:20%;">Based On</th>
+                      <th>Definition</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-DiagnosticReportRecord.html">DiagnosticReportRecord</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/composition.html">Composition</a></td>
+                      <td>The Clinical Artifact represents diagnostic reports including Radiology and Laboratory reports
+                        that can be shared across the health ecosystem.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-DischargeSummaryRecord.html">DischargeSummaryRecord</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/composition.html">Composition</a></td>
+                      <td>Clinical document used to represent the discharge summary record for ABDM HDE data set.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-HealthDocumentRecord.html">HealthDocumentRecord</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/composition.html">Composition</a></td>
+                      <td>The Clinical Artifact represents the unstructured historical health records as a single of
+                        multiple Health Record Documents generally uploaded by the patients through the Health Locker
+                        and can be shared across the health ecosystem.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-ImmunizationRecord.html">ImmunizationRecord</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/composition.html">Composition</a></td>
+                      <td>The Clinical Artifact represents the Immunization records with any additional documents such
+                        as vaccine certificate, the next immunization recommendations, etc. This can be further shared
+                        across the health ecosystem.</td>
+                    </tr>
+
+
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-OPConsultRecord.html">OPConsultRecord</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/composition.html">Composition</a></td>
+                      <td>The Clinical Artifact represents the outpatient visit consultation note which may include
+                        clinical information on any OP examinations, procedures along with medication administered, and
+                        advice that can be shared across the health ecosystem.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-PrescriptionRecord.html">PrescriptionRecord</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/composition.html">Composition</a></td>
+                      <td>The Clinical Artifact represents the medication advice to the patient in compliance with the
+                        Pharmacy Council of India (PCI) guidelines, which can be shared across the health ecosystem.
+                      </td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-WellnessRecord.html">WellnessRecord</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/composition.html">Composition</a></td>
+                      <td>The Clinical Artifact represents regular wellness information of patients typically through
+                        the Patient Health Record (PHR) application covering clinical information such as vitals,
+                        physical examination, general wellness, women wellness, etc., that can be shared across the
+                        health ecosystem.</td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <strong>Billing Artifacts</strong>
+                <br />
+                Following billing artifacts are profiles based on <a
+                  href="http://hl7.org/fhir/R4/composition.html">Composition</a> resource of FHIR R4.0.1:
+                <br /><br />
+
+
+                <table class="table table-bordered table-striped table-hover" style="min-width:620px; width:100%;">
+                  <thead style="background: lightsteelblue; ">
+                    <tr>
+                      <th style="width:20%;">Name</th>
+                      <th style="width:20%;">Based On</th>
+                      <th>Definition</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-InvoiceRecord.html">InvoiceRecord</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/composition.html">Composition</a></td>
+                      <td>The billing artifact represents the invoice details such as pharmacy invoice, consultation
+                        invoice etc. along with the support for scanned documents attached for the patient which can be
+                        shared across the health ecosystem.</td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </li>
+            </ul>
+
+            <ul>
+              <li><strong>Other Resource Profiles</strong>
+                <table class="table table-bordered table-striped table-hover">
+                  <thead style="background: lightsteelblue;">
+                    <tr>
+                      <th style="width:20%;">Name</th>
+                      <th style="width:20%;">Based On</th>
+                      <th>Definition</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-DocumentBundle.html">DocumentBundle</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/bundle.html">Bundle</a></td>
+                      <td>This profile sets minimum expectations for the DocumentBundle that includes all resources into
+                        a single instance with containing context to act as an exchangeable clinical document.</td>
+                    </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-AllergyIntolerance.html">AllergyIntolerance</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/allergyintolerance.html">AllergyIntolerance</a></td>
+                      <td>This profile sets minimum expectations for the AllergyIntolerance resource to record, search,
+                        and fetch allergies/adverse reactions associated with a patient.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-Appointment.html">Appointment</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/appointment.html">Appointment</a></td>
+                      <td>This profile sets minimum expectations for the Appointment resource to searching for and
+                        fetching information about a booking of a healthcare event among patient(s), practitioner(s),
+                        related person(s), and/or device(s) for a specific date/time for a patient.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-Binary.html">Binary</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/binary.html">Binary</a></td>
+                      <td>This profile sets minimum expectations for the Binary resource to searching for and fetching
+                        the data of a single raw artifact as digital content accessible in its native format of a
+                        patient.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-CarePlan.html">CarePlan</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/careplan.html">CarePlan</a></td>
+                      <td>This profile sets minimum expectations for the CarePlan resource to record, search, and fetch
+                        assessment and plan of treatment data associated with a patient.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-ChargeItem.html">ChargeItem</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/chargeitem.html">ChargeItem</a></td>
+                      <td>This profile sets the minimum expectations for the ChargeItem resource in order to store
+                        various details about the items under invoice which are being charged.</td>
+                    </tr>
+
+
+
+
+
+
+
+
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-Condition.html">Condition</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/condition.html">Condition</a></td>
+                      <td>This profile sets minimum expectations for the Condition resource to record, search, and fetch
+                        a list of conditions associated with a patient.</td>
+                    </tr>
+
+
+
+
+
+
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-DiagnosticReportImaging.html">DiagnosticReportImaging</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/diagnosticreport.html">DiagnosticReport</a></td>
+                      <td>This profile represents the set of information related to the Imaging diagnosis report
+                        generated by imaging services like Radiology, Cardiology, Endoscopy, etc. are ordered for the
+                        patient.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-DiagnosticReportLab.html">DiagnosticReportLab</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/diagnosticreport.html">DiagnosticReport</a></td>
+                      <td>This profile represents the set of information related to the Laboratory diagnosis report
+                        generated by the laboratory services like Complete Blood Count, Basic Metabolic Panel, Lipid
+                        Panel, Urinalysis, etc. are ordered for the patient.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-DocumentReference.html">DocumentReference</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/documentreference.html">DocumentReference</a></td>
+                      <td>This profile sets minimum expectations for searching and fetching patient documents including
+                        the Clinical Notes using the DocumentReference resource.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-Encounter.html">Encounter</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a></td>
+                      <td>This profile sets minimum expectations for the Encounter resource to record, search, and fetch
+                        basic encounter information for an individual patient.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-FamilyMemberHistory.html">FamilyMemberHistory</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/familymemberhistory.html">FamilyMemberHistory</a></td>
+                      <td>This profile sets minimum expectations for the FamilyMemberHistory resource for searching and
+                        fetching significant health conditions of a person related to the patient in the context of
+                        care.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-ImagingStudy.html">ImagingStudy</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/imagingstudy.html">ImagingStudy</a></td>
+                      <td>This profile sets minimum expectations for the ImagingStudy resource to searching for and
+                        fetching the content produced in a DICOM imaging study.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-Immunization.html">Immunization</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/immunization.html">Immunization</a></td>
+                      <td>This profile sets minimum expectations for the Immunization resource to record, fetch and
+                        search immunization history associated with a patient.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-ImmunizationRecommendation.html">ImmunizationRecommendation</a>
+                      </td>
+                      <td><a
+                          href="http://hl7.org/fhir/R4/immunizationrecommendation.html">ImmunizationRecommendation</a>
+                      </td>
+                      <td>This profile sets minimum expectations for the ImmunizationRecommendation resource to support
+                        the next immunization to be taken by the patient.</td>
+                    </tr>
+
+
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-Invoice.html">Invoice</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/invoice.html">Invoice</a></td>
+                      <td>This profile sets the minimum expectations for the details to be added in order to generate
+                        invoices for various healthcare process or workflows.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-Media.html">Media</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/media.html">Media</a></td>
+                      <td>This profile sets minimum expectations for the Media resource to searching for and fetching
+                        media like a photo, video, or audio recording acquired or used in healthcare, associated with a
+                        patient or provider.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-Medication.html">Medication</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/medication.html">Medication</a></td>
+                      <td>This profile sets the minimum expectations for the medication resource in order to store
+                        various details about a given medicine.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-MedicationRequest.html">MedicationRequest</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/medicationrequest.html">MedicationRequest</a></td>
+                      <td>The MedicationRequest resource can be used to record a patient’s medication prescription or
+                        order. This profile sets minimum expectations for the MedicationRequest resource to record,
+                        search, and fetch medications associated with a patient.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-MedicationStatement.html">MedicationStatement</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a></td>
+                      <td>The MedicationStatement resource can be used to record a patient’s medication information. It
+                        is used to record the information about the medications consumed by the patient in the past,
+                        present, or future.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-Observation.html">Observation</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/observation.html">Observation</a></td>
+                      <td>Observation resource represents an individual laboratory test and result value, a “nested”
+                        panel (such as a microbial susceptibility panel) which references other observations, or rarely
+                        a laboratory test with component result values. This profile sets minimum expectations for the
+                        Observation resource to record, search, and fetch laboratory test results associated with a
+                        patient.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-ObservationBodyMeasurement.html">ObservationBodyMeasurement</a>
+                      </td>
+                      <td><a href="StructureDefinition-Observation.html">Observation</a></td>
+                      <td>This profile sets minimum expectations for the ObservationBodyMeasurement to record, search,
+                        and fetch the details of the body measurements of the patient.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a
+                          href="StructureDefinition-ObservationGeneralAssessment.html">ObservationGeneralAssessment</a>
+                      </td>
+                      <td><a href="StructureDefinition-Observation.html">Observation</a></td>
+                      <td>This profile sets minimum expectations for the ObservationGeneralAssessment to record, search,
+                        and fetch the details of the general health assessment of a patient.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-ObservationLifestyle.html">ObservationLifestyle</a></td>
+                      <td><a href="StructureDefinition-Observation.html">Observation</a></td>
+                      <td>This profile sets minimum expectations for the ObservationLifestyle to record, search, and
+                        fetch the details of the lifestyle of the patient.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-ObservationPhysicalActivity.html">ObservationPhysicalActivity</a>
+                      </td>
+                      <td><a href="StructureDefinition-Observation.html">Observation</a></td>
+                      <td>This profile sets minimum expectations for the ObservationPhysicalActivity to record, search,
+                        and fetch the details of the physical activities of a patient.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-ObservationVitalSigns.html">ObservationVitalSigns</a></td>
+                      <td><a href="StructureDefinition-Observation.html">Observation</a></td>
+                      <td>This profile sets minimum expectations for the ObservationVitalSigns to record, search, and
+                        fetch the details of the vital signs of a patient.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-ObservationWomenHealth.html">ObservationWomenHealth</a></td>
+                      <td><a href="StructureDefinition-Observation.html">Observation</a></td>
+                      <td>This profile sets minimum expectations for ObservationWomenHealth to record, search, and fetch
+                        the details of women’s health.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-Organization.html">Organization</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/organization.html">Organization</a></td>
+                      <td>This profile sets minimum expectations for the Organization resource to searching for and
+                        fetching an Organization associated with a patient or provider.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-Patient.html">Patient</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/patient.html">Patient</a></td>
+                      <td>This profile sets minimum expectations for the Patient resource to record, search, and fetch
+                        basic demographics and other administrative information about an individual patient.</td>
+                    </tr>
+
+
+
+
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-Practitioner.html">Practitioner</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a></td>
+                      <td>This profile sets minimum expectations for the Practitioner resource to record, search, and
+                        fetch basic demographics and other administrative information about an individual practitioner.
+                      </td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-PractitionerRole.html">PractitionerRole</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a></td>
+                      <td>This profile sets minimum expectations for the PractitionerRole resource to record, search,
+                        and fetch the practitioner role for a practitioner.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-Procedure.html">Procedure</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/procedure.html">Procedure</a></td>
+                      <td>This profile sets minimum expectations for the Procedure resource to record, search, and fetch
+                        procedures associated with a patient.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-ServiceRequest.html">ServiceRequest</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a></td>
+                      <td>This profile sets minimum expectations for the ServiceRequest resource to searching for and
+                        fetching information about services like a request for a procedure or diagnostic or other
+                        services to be planned, proposed, or performed associated with a patient or provider.</td>
+                    </tr>
+
+
+
+                    <tr>
+                      <td><a href="StructureDefinition-Specimen.html">Specimen</a></td>
+                      <td><a href="http://hl7.org/fhir/R4/specimen.html">Specimen</a></td>
+                      <td>This profile sets minimum expectations for the Specimen resource to searching for and fetching
+                        information regarding a sample to be used for the analysis of a patient.</td>
+                    </tr>
+
+
+
+
+
+
+                  </tbody>
+                </table>
+              </li>
+            </ul>
+
+
+
+
+          </div>
+        </div> <!-- /inner-wrapper -->
+      </div> <!-- /row -->
+    </div> <!-- /container -->
+  </div> <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>
+  <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment"> <!-- segment-footer -->
+    <div class="container"> <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://nrces.in/">National Resource
+            Center for EHR Standards</a>. Package ndhm.in#6.5.0 based on <a
+            style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated
+          <span title="Thu, May 8, 2025 11:20+0530">2025-05-08</span>
+          <br />
+          <span style="color: var(--footer-highlight-text-color)">
+            Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+            <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+
+
+            | <a style="color: var(--footer-hyperlink-text-color)" href="https://nrces.in/ndhm/fhir/r4/history.html"
+              target="_blank">Version History</a> | <a style="color: var(--footer-hyperlink-text-color)"
+              href="https://forms.gle/vnZxShmg8a9jzzHC6" target="_blank">Feedback Form</a> |
+          </span>
+        </p>
+      </div> <!-- /inner-wrapper -->
+    </div> <!-- /container -->
+  </div> <!-- /segment-footer -->
+
+  <div id="segment-post-footer" class="segment hidden"> <!-- segment-post-footer -->
+    <div class="container"> <!-- container -->
+    </div> <!-- /container -->
+  </div> <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+# Decision log
+
+| Date | Decision | Rationale | Sources |
+|---|---|---|---|
+| 2026-08-27 | Create folder tree + download primary sources before drafting register | Clause numbers must come from local gazette PDFs | `sources.md` |
+| 2026-08-27 | Use Bašić & Giaretta **arXiv v4** (17 Mar 2026) | Title and study counts changed across versions | P01 |
+| 2026-08-27 | Do not create WASA-keyed register rows | No public official WASA specification found | X01 |
+| 2026-08-27 | Add `commencement_status` to register from day one | DPDP Rules/Act commence in stages (publication / +1y / +18m) | R03, R05 |
+| 2026-08-27 | Adopt markdown-first tree in `README.md`; register schema in `register/SCHEMA.md` | Mentor: documents only; GuideMe/Nickerson/Hevner each need a visible file | PROJECT_BRIEF |
+| 2026-08-27 | Example register rows use Act s.6(1), Rules r.3(b), Act s.6(4)/(6) with `clause_id_verified=false` | Quotes from retrieved text; local PDF page check still required; Example 3 must be split before dual coding | R01, R03 |
+| 2026-08-27 | Treat “~20 studies” in brief as to-verify against arXiv v4 PDF | Version drift risk; citation integrity | P01 |
+| 2026-08-27 | Primary sources list in brief mentioned WASA — overridden | Public WASA spec absent; keep as finding not register source | X01 |
+| 2026-08-27 | **WASA reclassified:** object of study, not primary source; no WASA-keyed rows; re-source to OWASP / ABDM HDMP / CERT-In; dedicated transparency subsection; reopen if official NHA text appears | Team assent (point 1) | X01, S01, R06 |
+| 2026-08-27 | **Study count:** cite only arXiv:2412.15004**v4**; number enters drafts only after read off local PDF; record count in sources.md when read | Team assent (point 2); version pin load-bearing | P01 |
+| 2026-08-27 | **Commencement modelling:** separate Act (843(E)) vs Rules (r.1) columns; `effective_from` only after both read; unverified cells show `unverified — pending G.S.R. 843(E)` (not blank) | Team assent (point 3) | R03, R05; SCHEMA |
+| 2026-08-27 | **Matrix emptiness is not a success criterion.** Freeze operational cell-coding rule before any cell coding; dual-code; report kappa; Gap 1 wording follows counts. Prefer partial over not_visible when imprecise. | Team assent (point 4, amended) | `mapping/cell-coding-rule.md` |
+| 2026-08-27 | Cell-coding rule written as **PROPOSED FOR FREEZE** — no cells coded until both coders assent and this log marks FROZEN | Point 4 next step | `mapping/cell-coding-rule.md` |
+| 2026-08-27 | Cell-coding rule **approved in principle with 7 amendments**; status → `v0.2-amended-unfrozen`; **still not frozen** | Counterfactual RCM; underspecified flag; partial sub-flags; closed legal-concept list; pre-freeze pilot; weighted kappa; register version pin | `mapping/cell-coding-rule.md`, `imported-legal-concepts.md`, `register/VERSION.md` |
+| 2026-08-27 | Primary IRR = linearly weighted kappa; report unweighted alongside | Ordinal verdicts | `validation/inter-rater.md` |
+| 2026-08-27 | Standing: freeze pins rule version + register version + hash; criterion reword after pin → log re-code need | Amendment 7 | `register/VERSION.md` |
+| 2026-08-27 | **Category profiles** extracted from Bašić v4 §4/Table 3; study count **21**; OWASP lines marked provisional (not in Bašić) | Blocks undefined row vocabulary | `taxonomy/category-profiles.md` |
+| 2026-08-27 | **G.S.R. 843(E) read** from local PDF; Act commencement lookup filled; Rules r.1 schedule recorded; MVP register commencement populated | Point 2 | `register/commencement-lookup.md`, `obligation-register.md` v0.2 |
+| 2026-08-27 | MVP register **15 criteria** spanning consent/notice, security, breach, retention, localization, ABDM cl.16.4 | Pilot corpus | `register-v0.2-mvp` |
+| 2026-08-27 | Method section drafted; WASA transparency finding written as paper subsection | Parallel work | `paper/03-method.md`, `paper/findings-wasa-transparency.md` |
+| 2026-08-27 | CERT-In empanelment added as S04 | WASA re-sourcing | `sources.md` |
