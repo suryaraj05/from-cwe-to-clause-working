@@ -104,6 +104,8 @@ Bašić v4 maps categories to **CWE**, not to OWASP Top 10. OWASP lines below ar
 | CWEs frequently cited | **Named in §4.10:** CWE-703. **Also in Table 3:** 117, 252, 614. |
 | OWASP_PROVISIONAL | Partial touch A09:2021 Security Logging and Monitoring Failures (for bad logging of errors) — **weak/partial fit only** |
 
+**Coder trap — CWE-117:** “Improper Output Neutralization for Logs” **presupposes logs exist** and concerns sanitizing what is written to them. An RCM remediated under CAT-10 yields **no** evidence that access/audit logging is present or sufficient. Against `OB-DPDP-R-006-02` (and HDMP audit-trail criteria), the correct coverage verdict is **`not_visible`**, not `partially_covered`. Do not treat CWE-117 as a logging-*existence* capability.
+
 ---
 
 ## How coders must use this file

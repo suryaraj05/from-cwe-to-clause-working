@@ -23,3 +23,7 @@
 | 2026-08-27 | MVP register **15 criteria** spanning consent/notice, security, breach, retention, localization, ABDM cl.16.4 | Pilot corpus | `register-v0.2-mvp` |
 | 2026-08-27 | Method section drafted; WASA transparency finding written as paper subsection | Parallel work | `paper/03-method.md`, `paper/findings-wasa-transparency.md` |
 | 2026-08-27 | CERT-In empanelment added as S04 | WASA re-sourcing | `sources.md` |
+| 2026-08-27 | **Logging Gap 1 evidenced** in Bašić v4 (no CWE-778/779/223/532/1295; no topical “logging”); CWE-117 only | PDF-verified | `paper/findings-logging-gap1.md` |
+| 2026-08-27 | Add dimension `access_logging_demonstrability`; tag R-006-02; closed-list capability note; CAT-10 trap; pilot P10/P11; ABDM FHIR+15.4+27.5a → register v0.3 | Pre-pilot review | register, taxonomy, mapping, pilot |
+| 2026-08-27 | Kappa measures agreement not correctness — shared wrong intuitions (logs=files; CWE-117=logging) | ToV | `paper/06-threats-to-validity.md` |
+| 2026-08-27 | Split repos: private working (with PDFs); public artifact without third-party PDFs | Copyright / citation hygiene | GitHub |

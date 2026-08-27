@@ -18,17 +18,17 @@ Column vocabulary is built with a GuideMe-adapted coding protocol (Ayala-Rivera 
 
 ## Extended dimensions
 
-Nickerson et al.’s taxonomy method structures how we add obligation-level dimensions (consent architecture, purpose binding, withdrawal propagation, breach notification, retention/erasure, localisation, ABHA/Health ID handling, consent-manager mediation, FHIR conformance) beyond CWE-shaped categories. Ending conditions are checked explicitly before claiming the taxonomy is finished.
+Nickerson et al.’s taxonomy method structures how we add obligation-level dimensions (consent architecture, purpose binding, withdrawal propagation, breach notification, retention/erasure, localisation, **access logging / demonstrability**, ABHA/Health ID handling, consent-manager mediation, FHIR conformance) beyond CWE-shaped categories. Ending conditions are checked explicitly before claiming the taxonomy is finished.
 
 ## Cross-mapping
 
-Cells answer a counterfactual-visibility question about a **remediated-under-category module (RCM)**: what the category’s ordinary CWE vocabulary guarantees regarding each criterion. Verdicts are ordinal: `fully_covered` > `partially_covered` > `not_visible`, with partial sub-flags (`partial_positive` / `partial_by_default`) and a `criterion_underspecified` return path to the register. Primary reliability is **linearly weighted** Cohen’s kappa; unweighted kappa is reported alongside. Emptiness of the matrix is an outcome, not a success criterion; Gap 1’s wording follows the counts.
+Cells answer a counterfactual-visibility question about a **remediated-under-category module (RCM)**. Verdicts are ordinal with partial sub-flags. Primary reliability is **linearly weighted** Cohen’s kappa. Emptiness is an outcome, not a success criterion.
+
+**Worked Gap 1 example:** Bašić v4 (21 studies) has no category assessing access/audit logging existence; DPDP r.6(1)(c) and HDMP cl.27.5(a) require it → dimension `access_logging_demonstrability` (`paper/findings-logging-gap1.md`). Kappa measures agreement, not correctness (`paper/06-threats-to-validity.md`).
 
 ## WASA
 
 WASA is an **object of study**, not a register instrument: no public official specification was located. Adjacent obligations are re-sourced to OWASP Top 10, ABDM Health Data Management Policy, and CERT-In empanelment listings. The absence is reported in a dedicated transparency subsection.
-
-## Evaluation plan (summary)
 
 Coverage ratio of register vs source instruments; dual coding + weighted kappa; two-round expert Delphi; documentary case study on an existing hospital audit report. Threats to validity are drafted early and updated as coding proceeds.
 

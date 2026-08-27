@@ -161,6 +161,9 @@ Reframed on the **RCM**:
 | AuthZ × “access requires authenticated role” | RCM under AuthZ often **necessarily** yields that pattern → candidate `fully_covered` if no imported-list term is required; else strong `partial_positive`. |
 | AuthZ × “withdrawal of consent disables consent-based access with ease comparable to grant” | RCM shares access control but does not guarantee withdrawal/consent elements (on imported list) → `partially_covered` / `partial_positive`, not `fully_covered`, and not `not_visible` if access evidence exists. |
 | Injection × “notice itemises personal data and purposes” | Injection RCM can be clean with no notice evidence → `not_visible`. |
+| **CAT-10 × OB-DPDP-R-006-02** (access logs / r.6(1)(c)) | CWE-117 presupposes logs; RCM under Error Handling does **not** evidence access-log existence/sufficiency → **`not_visible`**. Treating CWE-117 as partial coverage is the instructive trap. |
+| CAT-03 × OB-DPDP-R-006-02 | Path/upload CWEs ≠ access logging; “logs are files” is a vocabulary pun → **`not_visible`**. |
+| Any Bašić CAT × OB-ABDM-NRCES-FHIR-01 | Profile conformance / StructureDefinition expectations not in CWE inventories → expected **`not_visible`** across rows (second clean Gap 1 column beside logging). |
 
 ---
 

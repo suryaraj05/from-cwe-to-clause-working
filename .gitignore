@@ -1,4 +1,4 @@
-﻿# OS
+﻿# Git
 .DS_Store
 Thumbs.db
 
@@ -6,9 +6,13 @@ Thumbs.db
 .env
 .env.*
 
-# Working PDF text extracts (derived; originals live under docs/)
+# Working extracts
 docs/_extracts/
-
-# Python cache if any
 __pycache__/
 *.pyc
+
+# Publisher / paywalled literature — keep local & private working only; never push to public artifact
+docs/papers/hevner-2004-design-science-misq.pdf
+docs/papers/nickerson-2013-taxonomy-method.pdf
+docs/papers/kundisch-2022-update-taxonomy-designers.pdf
+docs/papers/ayala-rivera-pasquale-2018-guideme-gdpr.pdf

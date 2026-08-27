@@ -11,6 +11,12 @@ If stating why the RCM satisfies the criterion requires any item below (or an ob
 
 Technical words that appear in ordinary CWE/OWASP practice (e.g. authentication, authorization, encryption, logging, input validation, session, token in the *security* sense) are **not** on this list.
 
+### Capability vs closed-list clearance (mandatory)
+
+**Out-of-list status does *not* establish category capability.** It only means the term does not by itself bar `fully_covered` under test 3 of `cell-coding-rule.md`. Test 1 still requires that every criterion observable be entailed by the **category profile’s CWE inventory** (`taxonomy/category-profiles.md`).
+
+**Specific consequence — logging:** No Bašić category profile contains a CWE for the *existence or sufficiency* of access/audit logging (verified absent from v4: CWE-778, 779, 223, 532, 1295; word “logging” absent as a topic). CWE-117 (CAT-10) concerns neutralization of *output written to* logs and **presupposes** logs exist — it does **not** ground coverage of “are access logs present/sufficient?” Therefore **logging / access-monitoring observables cannot ground `fully_covered` or shared-observable `partially_covered` in any Bašić row.** Coders who treat “logging is ordinary security vocabulary” as satisfying test 1 are misapplying this list.
+
 ## Closed list
 
 ### Identity of persons and roles (regulatory)
@@ -59,6 +65,8 @@ Technical words that appear in ordinary CWE/OWASP practice (e.g. authentication,
 ## Explicitly out of list (allowed in `fully_covered` entailments)
 
 Examples: password, credential, session fixation, SQL injection, XSS, buffer overflow, insecure deserialization, path traversal, cryptographic algorithm/key management, access-control list, role-based access, audit log (technical), TLS, secrets in source, rate limiting — unless the criterion redefines them via a listed legal concept.
+
+**Again on “audit log (technical)”:** permitted by the closed list only as *not a legal-concept bar*. It still **cannot** support coverage under any Bašić category until a profile’s CWE inventory actually assesses log *existence/sufficiency* — which none currently do. See capability note above.
 
 ## Amendment rule
 
