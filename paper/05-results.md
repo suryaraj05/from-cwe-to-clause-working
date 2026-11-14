@@ -11,19 +11,19 @@
 
 | Consensus verdict | *n* | % of 170 |
 |---|---|---|
-| `not_visible` | 156 | 91.8% |
-| `partially_covered` | 13 | 7.6% |
-| `fully_covered` | 1 | 0.6% |
+| `not_visible` | **158** | 92.9% |
+| `partially_covered` | **12** | 7.1% |
+| `fully_covered` | **0** | 0% |
 
-All thirteen `partially_covered` cells carry sub-flag **`partial_positive`** (none `partial_by_default`).
+Counts after **human sample patch 2026-11-14** (Surya + Rahul). Earlier agent pass had 156N/13P/1F; humans moved CAT-07×R-006-01 from F→Pp and CAT-08/09×A-008-05 from Pp→N.
 
 ### Interpretation
 
 Most Indian regulatory observables in the MVP register are **not expressible** as guarantees of a remediated-under-category module (RCM) under Bašić’s ten CWE-shaped categories. That is the expected shape for Gap 1: security-assessment vocabulary ≠ statutory compliance vocabulary.
 
-The sole `fully_covered` cell is **CAT-07 (Cryptography) × R-006-01** (DPDP Rules r.6(1)(a) encryption path): a crypto-clean RCM necessarily applies sound encryption.
+Closest technical overlap: **CAT-07 × R-006-01** is **partial** (sound crypto when used ≠ all personal data encrypted/masked/tokenized).
 
-The uniform **`partially_covered`** column **A-008-05** (Act s.8(5) reasonable safeguards) shows every category contributes *some* security-safeguard evidence without guaranteeing the holistic statutory bar.
+**A-008-05** (reasonable safeguards) is **not** uniform: several categories contribute a safeguard *slice* (Pp/Pd); Resource Management and Coding Standards do not (N).
 
 ---
 

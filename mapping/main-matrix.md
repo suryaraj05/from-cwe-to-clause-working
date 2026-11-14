@@ -81,13 +81,14 @@ All CAT × {R-003-01, R-003-02, R-003-03, A-008-06, R-007-01, R-007-02, A-008-07
 
 ## Reconciliation status
 
-**Reconciled 2026-08-27** (5 disputed cells adjudicated). Consensus table: [`main-matrix-reconciled.csv`](main-matrix-reconciled.csv) · record: [`reconciliation-record.md`](reconciliation-record.md).
+**Reconciled 2026-08-27** (agent dual coding). **Human sample patch 2026-11-14** (Surya + Rahul, 50 cells) — see [`human-sample-results.md`](human-sample-results.md).
 
-| Consensus | *n* |
+| Consensus (current) | *n* |
 |---|---|
-| `not_visible` | 156 |
-| `partially_covered` (all `partial_positive`) | 13 |
-| `fully_covered` | 1 |
+| `not_visible` | **158** |
+| `partially_covered` | **12** |
+| `fully_covered` | **0** |
 
-**Human validation pending** — mentor review + human second coder ([`../validation/human-next-steps.md`](../validation/human-next-steps.md)).  
-Gap-1 logging columns remain **undisputed N/N → consensus N**.
+**Human sample:** 46/50 agree (92%). Gap 1 = 20/20 N (confirmed). Major human correction: CAT-07 × R-006-01 **F → Pp**. CAT-08/09 × A-008-05 **Pp → N**.
+
+**Still pending:** full 170 human dual coding (optional if guide accepts sample); mentor sign-off; case study.

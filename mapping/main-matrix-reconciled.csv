@@ -60,22 +60,22 @@ CAT-08,R-003-03,not_visible,—,Notice content obligations not in category CWE v
 CAT-09,R-003-03,not_visible,—,Notice content obligations not in category CWE vocabulary.,agreed_dual,not_visible,not_visible,0
 CAT-10,R-003-03,not_visible,—,Notice content obligations not in category CWE vocabulary.,agreed_dual,not_visible,not_visible,0
 CAT-01,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,agreed_dual,partially_covered,partially_covered,0
-CAT-02,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,agreed_dual,partially_covered,partially_covered,0
+CAT-02,A-008-05,partially_covered,partial_by_default,Human sample 2026-11-14: tiebreak Pd — memory-corruption prevention arguable safeguard slice; not holistic reasonable safeguards.,human_sample_2026-11-14,partially_covered,partially_covered,0
 CAT-03,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,agreed_dual,partially_covered,partially_covered,0
-CAT-04,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,agreed_dual,partially_covered,partially_covered,0
+CAT-04,A-008-05,partially_covered,partial_by_default,Human sample 2026-11-14: both used Pd — safe deserialization is narrow breach-mitigation slice.,human_sample_2026-11-14,partially_covered,partially_covered,0
 CAT-05,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,agreed_dual,partially_covered,partially_covered,0
 CAT-06,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,agreed_dual,partially_covered,partially_covered,0
 CAT-07,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,agreed_dual,partially_covered,partially_covered,0
-CAT-08,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,agreed_dual,partially_covered,partially_covered,0
-CAT-09,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,agreed_dual,partially_covered,partially_covered,0
-CAT-10,A-008-05,partially_covered,partial_positive,Shared: category remediation is a security-safeguard slice. Missing: holistic reasonable-safeguards bar.,agreed_dual,partially_covered,partially_covered,0
+CAT-08,A-008-05,not_visible,—,Human sample 2026-11-14: both A/B N — Resource Management (leaks/lifetime) does not guarantee reasonable personal-data breach safeguards.,human_sample_2026-11-14,partially_covered,partially_covered,0
+CAT-09,A-008-05,not_visible,—,Human sample 2026-11-14: both A/B N — Coding Standards residual bucket does not define data-breach safeguards.,human_sample_2026-11-14,partially_covered,partially_covered,0
+CAT-10,A-008-05,partially_covered,partial_by_default,Human sample 2026-11-14: tiebreak Pd — fail-safe error handling candidate; not holistic safeguards.,human_sample_2026-11-14,partially_covered,partially_covered,0
 CAT-01,R-006-01,not_visible,—,RCM category-clean with no criterion evidence.,agreed_dual,not_visible,not_visible,0
 CAT-02,R-006-01,not_visible,—,RCM category-clean with no criterion evidence.,agreed_dual,not_visible,not_visible,0
 CAT-03,R-006-01,not_visible,—,RCM category-clean with no criterion evidence.,agreed_dual,not_visible,not_visible,0
 CAT-04,R-006-01,not_visible,—,RCM category-clean with no criterion evidence.,agreed_dual,not_visible,not_visible,0
 CAT-05,R-006-01,partially_covered,partial_positive,Reconciled 2026-08-27 (pilot P02): shared sensitive-data protection; missing r.6(1)(a) encryption/masking/token menu. Side coder_a.,reconciliation_override,partially_covered,not_visible,1
 CAT-06,R-006-01,not_visible,—,RCM category-clean with no criterion evidence.,agreed_dual,not_visible,not_visible,0
-CAT-07,R-006-01,fully_covered,—,Reconciled 2026-08-27 (pilot P01): crypto RCM necessarily applies sound encryption — satisfies r.6(1)(a) encryption alternative without imported legal terms. Side coder_a.,reconciliation_override,fully_covered,partially_covered,1
+CAT-07,R-006-01,partially_covered,partial_positive,"Human sample 2026-11-14 (Surya/Rahul): crypto RCM ensures sound crypto when used, not that all PD is encrypted/masked/tokenized. Was F in agent reconcile; team consensus Pp.",human_sample_2026-11-14,fully_covered,partially_covered,1
 CAT-08,R-006-01,not_visible,—,RCM category-clean with no criterion evidence.,agreed_dual,not_visible,not_visible,0
 CAT-09,R-006-01,not_visible,—,RCM category-clean with no criterion evidence.,agreed_dual,not_visible,not_visible,0
 CAT-10,R-006-01,not_visible,—,RCM category-clean with no criterion evidence.,agreed_dual,not_visible,not_visible,0

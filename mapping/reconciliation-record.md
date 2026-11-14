@@ -45,18 +45,30 @@ Pilot P01 sealed this before freeze. CAT-07 RCM = data secured via sound cryptog
 
 ## Consensus distribution (170 cells)
 
+### After agent reconcile (2026-08-27)
+
 | Verdict | *n* |
 |---|---|
 | `not_visible` | 156 |
-| `partially_covered` (`partial_positive` only) | 13 |
+| `partially_covered` | 13 |
 | `fully_covered` | 1 |
 
-**Logging Gap 1 (unchanged):** R-006-02 and HDMP-27-05a = **10/10 `not_visible`** each (20 cells; no reconciliation dispute).
+### After human sample patch (2026-11-14) — **current**
 
-**Safeguard slice:** A-008-05 = **10/10 `partially_covered`** (partial_positive; both coders agreed).
+| Verdict | *n* |
+|---|---|
+| `not_visible` | **158** |
+| `partially_covered` | **12** |
+| `fully_covered` | **0** |
+
+**Logging Gap 1:** R-006-02 and HDMP-27-05a = **10/10 `not_visible`** each — **human-confirmed**.
+
+**Safeguard column A-008-05:** no longer uniform — CAT-08/09 = N; several Pd; others Pp.
+
+Detail: [`human-sample-results.md`](human-sample-results.md).
 
 ---
 
 ## Status
 
-Reconciliation complete for agent pass. **Human validation still required** — see [`../validation/human-next-steps.md`](../validation/human-next-steps.md).
+Agent reconciliation + **human sample validation done**. Mentor sign-off and case study still open.

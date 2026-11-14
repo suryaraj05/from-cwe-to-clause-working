@@ -31,3 +31,18 @@ Raw dual table: `mapping/main-matrix-dual.csv`. Both coder originals retained.
 
 Agreed non-default pattern: all CAT × A-008-05 = Pp/Pp → consensus Pp.  
 Logging columns R-006-02 and HDMP-27-05a = N/N → consensus N (all CATs).
+
+---
+
+## Human sample disagreements (2026-11-14) — Surya vs Rahul
+
+Sample: 50 cells. Raw agree 46/50. Full detail: `mapping/human-sample-compare.md`.
+
+| Cell | A (Surya) | B (Rahul) | Team consensus | vs old matrix |
+|---|---|---|---|---|
+| CAT-02 × A-008-05 | Pd | N | **Pd** | subflag refine |
+| CAT-10 × A-008-05 | Pd | N | **Pd** | subflag refine |
+| CAT-07 × R-006-01 | Pp | F | **Pp** | **was F → Pp** |
+| CAT-06 × A-006-04 | Pd | N | **N** | matches old N |
+
+Both also agreed CAT-08/09 × A-008-05 = **N** (old matrix had Pp) — patched.

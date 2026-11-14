@@ -42,31 +42,20 @@ rule `v0.3-frozen` · register `register-v0.3-mvp-2026-08-27` · profiles `cat-p
 
 ## Phase 1 — Human trust on the matrix (Days 1–3) — CRITICAL
 
-### Lead (A)
+### Lead (A) + Member C — **DONE 2026-11-14**
 
-- [ ] Open `mapping/cell-coding-rule.md` + `taxonomy/category-profiles.md` + `register/obligation-register.md`
-- [ ] Blind re-code a **sample** first (recommended): all 10 CATs × these columns only:  
-  `A-008-05`, `R-006-01`, `R-006-02`, `HDMP-27-05a`, `A-006-04`  
-  (~50 cells) — write results in `mapping/human-coder-pass.md` (create file)
-- [ ] Compare to `mapping/main-matrix-dual.csv` / consensus in `main-matrix-reconciled.csv`
-- [ ] Log disagreements in `logs/disagreement-record.md`
-- [ ] If guide already approved reconciliation: mark “mentor signed” in reconciliation record
-- [ ] If not approved: book 20 min with guide and walk the 5 disputed cells only
-
-### Member C (side quest — second human coder)
-
-- [ ] Independently re-code the **same sample** (do not look at A’s answers first)
-- [ ] Especially check Gap 1: `R-006-02` and `HDMP-27-05a` → expect `not_visible`
-- [ ] Especially check trap: CAT-10 × logging → still `not_visible` (CWE-117 ≠ log existence)
-- [ ] Meet A: reconcile sample disagreements (30–45 min)
+- [x] Blind sample coding: 10 CATs × `R-006-02`, `HDMP-27-05a`, `A-008-05`, `R-006-01`, `A-006-04`
+- [x] Worksheets: `human-coder-A.md` (Surya), `human-coder-B.md` (Rahul)
+- [x] Compare + adjudicate 4 disagreements → `human-sample-results.md`
+- [x] Gap 1 unanimous N; matrix patched (158N / 12P / 0F)
+- [ ] Mentor sign-off on human patches (esp. CAT-07 × R-006-01 F→Pp)
 
 ### Member B (side quest)
 
-- [ ] Prepare “what we show guide” tab list from earlier (overview, matrix.md, gap1, manuscript)
+- [ ] Prepare “what we show guide” tab list (overview, matrix.md, gap1, human-sample-results)
 - [ ] Write 5 bullet “progress since Review 1” for the final report intro
 
-**Exit:** At least sample dual-human coding done + Gap 1 undisputed by humans.  
-*(Ideal: full 170 later if time; sample is enough to start case study if guide agrees.)*
+**Exit:** Sample dual-human coding done + Gap 1 undisputed. **→ Phase 2 case study next.**
 
 ---
 
