@@ -1,7 +1,7 @@
 # Validation report
 
-**Version:** `validation-v0.2-2026-11-14`  
-**Status:** matrix sample human-validated; case study + Delphi still open  
+**Version:** `validation-v0.3-2026-11-14`  
+**Status:** matrix sample human-validated + documentary case study complete; Delphi optional  
 **Full plan:** [`validation-plan.md`](validation-plan.md)
 
 ---
@@ -12,52 +12,60 @@
 
 | Metric | Result |
 |---|---|
-| Linearly weighted Cohen’s κ | 0.949 |
-| *n* (non-pilot) | 158 |
+| Linearly weighted Cohen’s κ | 0.949 (*n* = 158 non-pilot) |
 | Note | Coder B was agent; prevalence of `not_visible` inflates κ |
 
-### 1b. Human sample pass (2026-11-14) — primary trust signal now
+### 1b. Human sample pass (2026-11-14)
 
 | Metric | Result |
 |---|---|
 | Coders | Surya (A), Rahul (B) |
-| Cells | 50 (10 CATs × 5 obligations) |
-| Raw agreement | **46/50 = 92%** |
-| Disagreements adjudicated | 4 |
-| Gap 1 (logging columns) | **20/20 `not_visible`** (unanimous) |
+| Cells | 50 |
+| Raw agreement | **92%** (46/50) |
+| Gap 1 | **20/20 `not_visible`** |
 
-Artifacts: `mapping/human-coder-A.md`, `human-coder-B.md`, `human-sample-compare.md`, `human-sample-results.md`
+Artifacts: `mapping/human-sample-results.md`
 
 ---
 
-## 2. Structural findings (post human patch)
+## 2. Documentary case study (2026-11-14)
+
+| Field | Result |
+|---|---|
+| System | Bahmni India Distro HIP (`openmrs-module-hip` + `hip-service`) |
+| Scorers | Surya, Rahul |
+| Obligations scored | 18 (17 matrix + HDMP-16-04) |
+| Pre-adjudication agreement | **88.9%** (16/18) |
+| Gap 1 on real code | **R-006-02 = F**; **HDMP-27-05a = Pt** |
+| Full report | [`case-study-report.md`](case-study-report.md) |
+
+**Consensus score mix:** 3 Pass · 4 Partial · 5 Fail · 6 NA  
+
+Case study **confirms Gap 1** empirically: CWE-oriented reading of error handlers would not surface missing access-monitoring logs.
+
+---
+
+## 3. Structural matrix findings (post human patch)
 
 | Finding | Evidence |
 |---|---|
-| Logging Gap 1 | 20/20 `not_visible` — human-confirmed |
-| Sparse visibility | **158/170** `not_visible` (92.9%) |
-| Fully covered | **0** after human correction of CAT-07 × R-006-01 to Pp |
-| A-008-05 | Not uniform: CAT-08/09 = N; several Pd; others Pp |
+| Logging Gap 1 (matrix) | 20/20 `not_visible` |
+| Logging Gap 1 (case study) | Access logs **Fail**; audit trail **Partial** |
+| Matrix counts | 158 N / 12 P / 0 F |
+| Crypto cell | CAT-07 × R-006-01 = Pp (human); case study R-006-01 = Pt |
 
 ---
 
-## 3. WASA transparency finding
+## 4. WASA transparency
 
 Unchanged — no public official WASA specification.  
 `paper/findings-wasa-transparency.md`
 
 ---
 
-## 4. Coverage ratio (MVP)
+## 5. Coverage / Nickerson
 
-18 register rows; partial instrument coverage by design.  
-`validation/coverage-ratio.md`
-
----
-
-## 5. Nickerson taxonomy check
-
-Objective conditions largely met; subjective conditions pending Delphi (if required).  
+MVP register coverage documentary only. Nickerson subjective conditions still pending Delphi **if** guide requires.
 
 ---
 
@@ -65,15 +73,16 @@ Objective conditions largely met; subjective conditions pending Delphi (if requi
 
 | Component | Status |
 |---|---|
-| Human sample coding (50 cells) | **Done** |
-| Matrix patched to human consensus | **Done** |
-| Mentor sign-off on reconciliation | Pending |
-| Rubric case study | **Next** — evidence index ready |
-| Expert Delphi | Only if guide requires |
+| Human sample matrix coding | **Done** |
+| Matrix patched | **Done** |
+| Bahmni HIP case study | **Done** |
+| Mentor sign-off | Pending |
+| Expert Delphi | Optional / if required |
 | Full 170 human dual coding | Optional |
+| Manuscript cite case study | Next (paper polish) |
 
 ---
 
-## 7. Conclusion (interim)
+## 7. Conclusion
 
-Human sample coding **confirms Gap 1** and **tightens** the earlier agent “fully covered” crypto cell to partial. The instrument works as designed: CWE-shaped categories do not guarantee Indian logging duties. Next evaluation step is a **documentary case study** applying the rubric to a healthcare evidence pack.
+The framework is **usable on real ABDM-adjacent healthcare code**. Dual human scoring worked for both the matrix sample and the Bahmni case study. Gap 1 is supported by matrix emptiness **and** case-study Fail/Partial on logging/audit duties. Remaining work is primarily mentor sign-off and final report polish (Delphi only if required).

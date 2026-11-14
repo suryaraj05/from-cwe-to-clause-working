@@ -69,18 +69,14 @@ rule `v0.3-frozen` · register `register-v0.3-mvp-2026-08-27` · profiles `cat-p
 - [x] Indexed 10 files in `validation/case-study-evidence-index.md`
 - [x] Public MIT — no redaction blocker
 
-### Lead (A) — apply rubric — **DO NOW**
+### Lead (A) + Member B — **DONE 2026-11-14**
 
-- [ ] Read `validation/HOWTO-case-study-scoring.md`
-- [ ] Fill `validation/case-study-scorer-A.md` (all 17 + Gap 1)
-- [ ] Cite GitHub file + behaviour; matrix = hints only
+- [x] Scorer A (Surya) + Scorer B (Rahul) completed
+- [x] Compare adjudicated (88.9% raw agree)
+- [x] Report written: `validation/case-study-report.md`
+- [x] Validation report bumped to v0.3
 
-### Member B — second rater — **DO NOW**
-
-- [ ] Fill `validation/case-study-scorer-B.md` (min: Gap 1 + encryption + consent + FHIR + Health ID)
-- [ ] Reconcile with A in `validation/case-study-compare.md`
-
-**Exit:** Compare complete → agent writes `case-study-report.md`.
+**Exit:** Case study complete. **→ Phase 3 lock deliverables + Phase 4 paper polish.**
 
 ---
 

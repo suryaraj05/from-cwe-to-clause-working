@@ -38,3 +38,4 @@
 | 2026-08-27 | **Research overview** `RESEARCH_OVERVIEW.md` — complete document: problem, work done, outcomes, pending, end goal | User request | `RESEARCH_OVERVIEW.md` |
 | 2026-11-14 | **Human sample coding** (Surya+Rahul): 50 cells, 92% agree; Gap 1 unanimous N; 4 disagreements adjudicated; CAT-07×R-006-01 F→Pp; CAT-08/09×A-008-05 Pp→N; matrix counts → 158N/12P/0F | Phase 1 completion | `human-sample-results.md`, `main-matrix-reconciled.csv` |
 | 2026-11-14 | **Case study evidence pack:** Bahmni India Distro HIP (`openmrs-module-hip` + `hip-service`); 10 public MIT files indexed; rubric scoring worksheets issued | Phase 2 start | `case-study-evidence-index.md`, `case-study-scorer-A/B.md` |
+| 2026-11-14 | **Case study complete:** Surya+Rahul dual rubric scores; 88.9% agree; consensus R-006-02=F, HDMP-27-05a=Pt; Gap 1 confirmed on real HIP code; report `case-study-report.md` | Phase 2 completion | `case-study-report.md`, `validation-report.md` v0.3 |

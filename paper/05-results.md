@@ -34,9 +34,13 @@ Closest technical overlap: **CAT-07 × R-006-01** is **partial** (sound crypto w
 | R-006-02 (r.6(1)(c) — visibility via logs/monitoring) | 10/10 `not_visible` |
 | HDMP-27-05a (cl.27.5(a) — audit trail) | 10/10 `not_visible` |
 
-No disagreement after dual coding or reconciliation. Detail: [`findings-logging-gap1.md`](findings-logging-gap1.md).
+Human sample (2026-11-14) confirmed 20/20 N. Detail: [`findings-logging-gap1.md`](findings-logging-gap1.md).
 
 CAT-10 (Error Handling) does **not** rescue logging: CWE-117 presupposes logs exist and concerns output neutralization, not access-log existence.
+
+### Case study corroboration (Bahmni HIP, 2026-11-14)
+
+On public ABDM HIP code (`openmrs-module-hip` + `hip-service`), dual rubric scoring found **R-006-02 = Fail** (no dedicated access-monitoring logs) and **HDMP-27-05a = Partial** (gateway transaction state ≠ full audit trail). Pre-adjudication scorer agreement **88.9%**. Full write-up: [`../validation/case-study-report.md`](../validation/case-study-report.md).
 
 ---
 
