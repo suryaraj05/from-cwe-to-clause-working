@@ -42,3 +42,4 @@
 | 2026-11-14 | **Phase 3 lock:** deliverables 1–5 marked locked; `rubric/user-guide.md` added; register pin unchanged; coverage/status/overview refreshed for 158N/12P/0F | Phase 3 | `project-status.md`, `coverage-ratio.md`, `RESEARCH_OVERVIEW.md`, `VERSION.md` |
 | 2026-11-14 | **Phase 4 Results polish:** manuscript v0.2 + `05-results`/`00-abstract`/`06-threats`/`07-conclusion` cite human sample + Bahmni case study; counts 158/12/0; MCP future-only | Phase 4 | `paper/draft-manuscript.md`, `paper/05-results.md` |
 | 2026-11-14 | **Project completion package frozen for submission draft** (mentor sign-off still required; Delphi optional) | Phase 3–4 exit | `COMPLETION_ROADMAP.md` |
+| 2026-11-14 | **manuscript-v0.3 citation polish** + `validation/mentor-signoff.md` added (IEEE refs; κ=0.746 human sample; ready for guide signature) | Phase 4 citation / mentor gate | `paper/draft-manuscript.md`, `paper/references.md`, `validation/mentor-signoff.md` |
