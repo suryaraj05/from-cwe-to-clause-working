@@ -3,12 +3,12 @@
 **Title:** From CWE to Clause: A Regulatory Compliance Assessment Framework for AI-Generated Healthcare Code under India's DPDP Act 2023 and ABDM  
 
 **Team:** Undergraduate CS research (India), mentor-approved  
-**As of:** 2026-08-27  
+**As of:** 2026-11-14  
 **Constraint:** Documents only — no application code, scripts as deliverables, static analysis, notebooks, or tooling  
 
 **Read next:** Integrated thesis draft → [`paper/draft-manuscript.md`](paper/draft-manuscript.md)  
-**Team checklist:** [`validation/human-next-steps.md`](validation/human-next-steps.md)  
-**Live tracker:** [`validation/project-status.md`](validation/project-status.md)
+**Live tracker:** [`validation/project-status.md`](validation/project-status.md)  
+**Roadmap:** [`validation/COMPLETION_ROADMAP.md`](validation/COMPLETION_ROADMAP.md)
 
 **Repositories:**
 - Private working (with PDFs): https://github.com/suryaraj05/from-cwe-to-clause-working  
@@ -57,202 +57,134 @@ We do **not** build software, run scans, or generate code. Every deliverable is 
 
 ## 2. What we built (the artefact)
 
-Five linked deliverables:
+Five linked deliverables (**Phase 3 locked**):
 
-| # | Deliverable | What it is | Primary location |
-|---|---|---|---|
-| **1** | **Obligation register** | Atomic criteria quoted/derived from DPDP Act, DPDP Rules, ABDM HDMP, NRCeS FHIR IG — with commencement dates, assessment questions, evidence requirements | `register/obligation-register.md` |
-| **2** | **Extended taxonomy** | Bašić ten categories **plus** obligation-level dimensions (consent, logging, FHIR, etc.) | `taxonomy/extended-taxonomy.md` |
-| **3** | **Cross-mapping matrix** | 10 categories × 17 obligations = **170 cells** — each cell states whether a *remediated-under-category module (RCM)* guarantees the criterion | `mapping/main-matrix-reconciled.csv` |
-| **4** | **Assessment rubric** | How to score a real module/document pack: Pass / Partial / Fail / Not assessable via CWE taxonomy | `rubric/assessment-rubric.md` |
-| **5** | **Validation report** | Evaluation evidence: κ, coverage, protocols for Delphi and case study | `validation/validation-report.md` |
+| # | Deliverable | What it is | Primary location | Status |
+|---|---|---|---|---|
+| **1** | **Obligation register** | Atomic criteria from DPDP Act, DPDP Rules, ABDM HDMP, NRCeS FHIR IG | `register/obligation-register.md` | Locked MVP |
+| **2** | **Extended taxonomy** | Bašić ten categories + obligation-level dimensions | `taxonomy/extended-taxonomy.md` | Locked draft |
+| **3** | **Cross-mapping matrix** | 10 × 17 = **170 cells** | `mapping/main-matrix-reconciled.csv` | Locked + human sample |
+| **4** | **Assessment rubric** | Pass / Partial / Fail / NA (+ developer guide) | `rubric/assessment-rubric.md`, `user-guide.md` | Locked + tried |
+| **5** | **Validation report** | κ (exploratory), human sample, Bahmni case study | `validation/validation-report.md` | v0.3 |
 
-**Coding rule (frozen):** `mapping/cell-coding-rule.md` v0.3-frozen — defines RCM, three verdicts, partial sub-flags, closed legal-concept list, weighted κ as primary IRR statistic.
+**Coding rule (frozen):** `mapping/cell-coding-rule.md` v0.3-frozen.
 
 ---
 
 ## 3. What we did till now (timeline summary)
 
-### Phase A — Foundation (2026-08-27)
+### Phase A–E — Foundation through agent completion (2026-08-27)
 
-- Created markdown-first repository structure; downloaded and catalogued primary sources (`sources.md`).
-- Pinned Bašić **arXiv v4**; verified **21 studies** from PDF; extracted **category profiles** with CWE inventories.
-- Built register **schema** and GuideMe-adapted **coding protocol**.
-- Read **G.S.R. 843(E)** commencement; populated Act/Rules commencement columns (most substantive duties → **2027-05-13**).
-- Reclassified **WASA** as object of study (no public official spec) — not a register source.
+Sources pinned; register MVP; rule frozen; Gap 1 PDF-evidenced; main matrix dual-coded (agent); reconciliation; rubric/taxonomy/protocols; manuscript draft; split GitHub repos. Detail retained in prior overview versions / decision log.
 
-### Phase B — Instrument design
+### Phase 1 — Human sample (2026-11-14) — **DONE**
 
-- Wrote cell-coding rule; incorporated **seven amendments** (RCM counterfactual, partial sub-flags, closed legal concepts, weighted κ, etc.).
-- Ran **pre-freeze pilot** (13 cells); fixed one real rule defect (logging as shared observable).
-- **Froze** rule v0.3; pinned register v0.3-mvp and category profiles v0.1.
-- Added **`access_logging_demonstrability`** dimension; expanded register to **18 MVP rows** (17 in matrix).
+Surya + Rahul blind-coded **50 cells** (92% agree). Gap 1: 20/20 `not_visible`. Matrix patched → **158 N / 12 P / 0 F** (CAT-07 × R-006-01 F→Pp; CAT-08/09 × A-008-05 Pp→N).
 
-### Phase C — Evidence and findings
+### Phase 2 — Bahmni HIP case study (2026-11-14) — **DONE**
 
-- **PDF-verified Gap 1:** Bašić v4 has no logging-existence CWEs (778, 779, 223, 532, 1295 absent; “logging” absent as topic; only CWE-117 under Error Handling).
-- Documented **WASA transparency finding** (no citable official specification).
-- Page-stamped register loci from local gazette PDFs (`register/page-stamps.md`).
+Public MIT HIP modules dual-scored with rubric (88.9% agree). R-006-02 = **Fail**; HDMP-27-05a = **Partial**. Gap 1 confirmed on real ABDM-adjacent code.
 
-### Phase D — Main matrix
+### Phase 3 — Lock deliverables (2026-11-14) — **DONE**
 
-- **Dual-coded** all 170 cells (column-wise order).
-- **Linearly weighted κ = 0.949** on 158 non-pilot cells (12 pilot cells excluded, handling A).
-- **Reconciled** 5 disagreements → consensus matrix.
-- Published dual originals + consensus CSV + κ summary.
+Register/taxonomy/matrix/rubric/validation status pages + user guide locked; coverage ratio refreshed.
 
-### Phase E — Completion pass (agent; team unavailable)
+### Phase 4 — Manuscript Results (2026-11-14) — **IN PROGRESS**
 
-- Extended taxonomy, Nickerson checklist, rubric, validation plan/report, coverage ratio.
-- Delphi and case-study **protocols** (design only).
-- Paper section drafts + **integrated manuscript** (`paper/draft-manuscript.md`).
-- Split GitHub repos: private working with PDFs; public artifact without third-party PDFs.
+`paper/05-results.md` and `draft-manuscript.md` updated with Phase 1–2 evidence. Remaining: mentor sign-off, citation/formatting polish, optional Delphi.
 
 ---
 
 ## 4. Outcomes (what we found)
 
-### 4.1 Primary quantitative result — matrix consensus
+### 4.1 Primary quantitative result — matrix consensus (post human)
 
 | Verdict | Cells | % of 170 |
 |---|---|---|
-| `not_visible` | **156** | 91.8% |
-| `partially_covered` | **13** | 7.6% (all `partial_positive`) |
-| `fully_covered` | **1** | 0.6% |
+| `not_visible` | **158** | 92.9% |
+| `partially_covered` | **12** | 7.1% |
+| `fully_covered` | **0** | 0% |
 
-**Interpretation:** For our MVP obligation set, Bašić’s ten CWE-shaped categories **do not** collectively guarantee most Indian regulatory observables when a module is only assessed through category remediation.
+**Interpretation:** Bašić’s ten CWE-shaped categories do not collectively guarantee most Indian regulatory observables in our MVP set. There is **no** sole fully-covered cell after human adjudication.
 
 ### 4.2 Gap 1 — access logging (strongest finding)
 
 | Obligation | Source | Matrix (all 10 categories) |
 |---|---|---|
-| R-006-02 | DPDP Rules r.6(1)(c) — visibility of access via logs/monitoring | **10/10 `not_visible`** |
-| HDMP-27-05a | ABDM HDMP cl.27.5(a) — audit trail of personal-data access | **10/10 `not_visible`** |
+| R-006-02 | DPDP Rules r.6(1)(c) | **10/10 `not_visible`** |
+| HDMP-27-05a | ABDM HDMP cl.27.5(a) | **10/10 `not_visible`** |
 
-**20/20 cells** — no dual-coding or reconciliation dispute.
-
-A module can pass every Bašić category (including CAT-10 / CWE-117) and still show **no evidence** that access or audit logging exists. CWE-117 concerns sanitizing output *to* logs; it presupposes logs exist.
-
-Detail: `paper/findings-logging-gap1.md`
+**20/20 cells** — human sample unanimous. Case study: access logs **Fail**; audit trail **Partial**.
 
 ### 4.3 Other structural patterns
 
 | Pattern | Result |
 |---|---|
-| **A-008-05** (Act s.8(5) reasonable safeguards) | 10/10 `partially_covered` — categories give a security *slice*, not the full statutory bar |
-| **R-006-01** (Rules r.6(1)(a) encryption/masking/tokens) | CAT-07 **fully covered** (crypto → encryption path); CAT-05 partial |
-| Consent, notice, breach, erasure, localization, FHIR columns | Uniformly `not_visible` except noted partials (CAT-05×A-006-01, CAT-06×A-006-06) |
-| **Sole fully covered cell** | CAT-07 (Cryptography) × R-006-01 |
+| **A-008-05** | Mixed Pp/Pd; CAT-08/09 → N after human |
+| **R-006-01** | CAT-05 + CAT-07 **partial only** (not full) |
+| Consent / notice / breach / erasure / localization / FHIR | Mostly uniform `not_visible` except noted partials |
 
 ### 4.4 WASA transparency finding
 
-No publicly available official NHA/ABDM WASA specification in citable clause form. We **do not** invent WASA register rows. Adjacent themes re-sourced to OWASP Top 10, ABDM HDMP, CERT-In empanelment. Reported as regulatory **transparency** finding, not only a limitation.
+No public official WASA specification — object of study, not a register source.
 
-Detail: `paper/findings-wasa-transparency.md`
+### 4.5 Reliability
 
-### 4.5 Reliability (exploratory)
-
-| Metric | Value |
+| Layer | Result |
 |---|---|
-| Linearly weighted Cohen’s κ | 0.949 (*n* = 158) |
-| Non-pilot disagreements before reconciliation | 1 |
-| Cells reconciled | 5 |
-
-**Caution:** κ measures **agreement**, not correctness. High κ partly reflects mass agreement on `not_visible`. Coder B was an agent pass — **human replication required** for publication-grade claims.
+| Agent matrix κ (exploratory) | 0.949 (*n* = 158) |
+| Human matrix sample | **92%** raw agree (50 cells) |
+| Human case-study rubric | **88.9%** raw agree (18 obligations) |
 
 ### 4.6 Practical implication
 
-Healthtech teams using AI assistants should **not** treat CWE-only or OWASP-only review as sufficient for DPDP/ABDM **logging** and **consent-architecture** duties. Those require **obligation-specific** assessment beyond Bašić categories.
+CWE-only or OWASP-only review is insufficient for DPDP/ABDM **logging** and **consent-architecture** duties — use register + matrix + rubric.
 
 ---
 
-## 5. What is still pending (team work)
+## 5. What is still pending
 
-### 5.1 Required for “project complete” (mentor sign-off)
-
-| # | Task | Why |
+| # | Task | Status |
 |---|---|---|
-| 1 | **Human second coder** on matrix (blind re-code from frozen rule + profiles) | Publication-grade IRR; agent κ is exploratory |
-| 2 | **Mentor sign-off** on reconciliation (especially CAT-06 × A-006-04 → `not_visible`) | Five cells were adjudicated without mentor |
-| 3 | **Documentary case study** — apply rubric to existing hospital/healthtech audit report | Proves rubric works on real evidence (`validation/case-study.md`) |
-| 4 | **Expert Delphi** (2 rounds) — if mentor requires | Face validity + Nickerson subjective conditions (`validation/delphi/protocol.md`) |
-| 5 | **Thesis/report finalisation** — rewrite `draft-manuscript.md` in team voice; institution formatting | Agent draft ≠ submission final |
-
-### 5.2 Recommended but optional
-
-| Task | Notes |
-|---|---|
-| Dual-code register rows themselves | Matrix used MVP criteria; rows still draft in workflow sense |
-| Expand register beyond 18 MVP rows | Broader DPDP/ABDM coverage — not claimed exhaustive today |
-| Resolve HDMP-16-04 | Keep as org-policy row vs rewrite to code-visible gate (pilot flagged underspecified) |
-| FHIR row exact stamp | Confirm `meta.profile` wording on specific StructureDefinition page |
-
-### 5.3 What is **not** pending (agent-complete)
-
-- Source manifest, category profiles, frozen coding rule, pilot, main matrix, reconciliation, consensus CSV  
-- Gap 1 and WASA findings (evidenced)  
-- Rubric, validation plan, partial validation report, coverage ratio  
-- Integrated manuscript draft and section splits  
-- Delphi/case-study **protocols** (ready to execute)
+| 1 | Mentor sign-off (reconciliation + human patches + case study) | **Open** |
+| 2 | Expert Delphi | **Optional** — only if guide requires |
+| 3 | Full 170 human dual coding | **Optional** |
+| 4 | Final institutional formatting / citation pass | **Open** |
+| 5 | MCP / tooling | **Out of scope** (future work paragraph only) |
 
 ---
 
 ## 6. End goal
 
-### 6.1 Ultimate aim
-
-Deliver a **validated, auditable, documentary framework** that lets reviewers answer:
+Deliver a **validated, auditable, documentary framework** answering:
 
 > *When we assess an AI-generated patient-data module using standard CWE-shaped vulnerability categories, which Indian DPDP/ABDM obligations become visible in the evidence — and which do not?*
 
-The end product is **not software**. It is:
-
-1. A **traceable obligation register** (quotes → criteria → evidence).  
-2. An **extended taxonomy** showing where legal duties live outside CWE vocabulary.  
-3. A **cross-mapping matrix** with measured inter-rater agreement.  
-4. A **rubric** for applying the framework to documentary evidence.  
-5. A **validation report** (κ, coverage, expert review, case study) suitable for a thesis chapter.
-
-### 6.2 Success criteria (realistic)
+Success criteria:
 
 | Criterion | Status |
 |---|---|
-| Framework artefacts exist and are version-pinned | **Met** (v0.1 drafts) |
-| Gap 1 demonstrated with PDF + matrix evidence | **Met** |
-| Matrix dual-coded under frozen rule | **Met** (agent pair) |
-| Human-validated IRR | **Pending** |
-| Rubric applied to real case | **Pending** |
-| Expert acceptance (Delphi) | **Pending** (if required) |
+| Framework artefacts exist and are version-pinned | **Met** |
+| Gap 1 demonstrated (PDF + matrix + case study) | **Met** |
+| Matrix dual-coded under frozen rule | **Met** |
+| Human-validated sample IRR | **Met** (sample) |
+| Rubric applied to real case | **Met** (Bahmni HIP) |
+| Expert acceptance (Delphi) | Optional |
 | Mentor-approved thesis/report | **Pending** |
-
-### 6.3 When is the project “done”?
-
-The project is **done** when:
-
-1. The team completes the human validation track (items in §5.1).  
-2. The mentor accepts the five deliverables + thesis/report.  
-3. The manuscript states scope limits honestly (pattern ≠ legal compliance; MVP register; exploratory κ until human coder confirms).
-
-Agent work has brought the project to **submission-ready draft** status. Team work makes it **defensible**.
 
 ---
 
-## 7. Key file map (quick reference)
+## 7. Key file map
 
 | Need | File |
 |---|---|
 | Full thesis draft | `paper/draft-manuscript.md` |
-| Matrix results (machine) | `mapping/main-matrix-reconciled.csv` |
-| Matrix summary | `mapping/main-matrix-summary.json` |
-| Coding rule | `mapping/cell-coding-rule.md` |
-| Register (MVP) | `register/obligation-register.md` |
-| Gap 1 evidence | `paper/findings-logging-gap1.md` |
-| WASA finding | `paper/findings-wasa-transparency.md` |
-| Rubric | `rubric/assessment-rubric.md` |
-| Validation (partial) | `validation/validation-report.md` |
-| Team to-do | `validation/human-next-steps.md` |
-| All sources | `sources.md` |
-| Decisions | `logs/decision-log.md` |
+| Results | `paper/05-results.md` |
+| Matrix | `mapping/main-matrix-reconciled.csv` |
+| Human sample | `mapping/human-sample-results.md` |
+| Case study | `validation/case-study-report.md` |
+| Rubric guide | `rubric/user-guide.md` |
+| Status | `validation/project-status.md` |
 
 ---
 
@@ -264,10 +196,6 @@ Agent work has brought the project to **submission-ready draft** status. Team wo
 | Cell-coding rule | v0.3-frozen |
 | Register | register-v0.3-mvp-2026-08-27 |
 | Category profiles | cat-profiles-v0.1-2026-08-27 |
-| Manuscript | manuscript-v0.1-2026-08-27 |
+| Manuscript | manuscript-v0.2-2026-11-14 |
 
 Rewording after pin → log in `logs/decision-log.md` and assess re-code need.
-
----
-
-*This document is the single overview for mentors, team members, and examiners. Update when human validation completes.*

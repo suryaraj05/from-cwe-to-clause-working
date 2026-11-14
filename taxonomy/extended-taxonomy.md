@@ -61,7 +61,7 @@ For each **CAT × obligation** cell, the matrix records whether the RCM for that
 1. **`access_logging_demonstrability` has no Bašić home** — 20/20 cells `not_visible` (Gap 1).  
 2. **Consent/notice/breach/erasure/localization/FHIR columns** — uniformly `not_visible` except noted partials.  
 3. **Holistic security safeguard (A-008-05)** — 10/10 `partially_covered` (slice only).  
-4. **Crypto minimum safeguard (R-006-01)** — CAT-07 `fully_covered`; CAT-05 partial.
+4. **Crypto minimum safeguard (R-006-01)** — CAT-07 and CAT-05 `partially_covered` only (human sample: crypto RCM does not entail full encryption/masking/tokenization of all personal data).
 
 Detail: [`../mapping/not-visible-cells.md`](../mapping/not-visible-cells.md).
 

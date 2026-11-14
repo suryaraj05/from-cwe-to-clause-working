@@ -1,6 +1,7 @@
 # register version
 
-**Current version:** `register-v0.3-mvp-2026-08-27`
+**Current version:** `register-v0.3-mvp-2026-08-27`  
+**Phase 3 lock (2026-11-14):** wording **unchanged** — still the MVP pin used for human sample + Bahmni case study. No re-code triggered.
 
 | Version | Date | Notes |
 |---|---|---|

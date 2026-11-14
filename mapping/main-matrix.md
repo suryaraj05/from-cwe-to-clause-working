@@ -91,4 +91,4 @@ All CAT × {R-003-01, R-003-02, R-003-03, A-008-06, R-007-01, R-007-02, A-008-07
 
 **Human sample:** 46/50 agree (92%). Gap 1 = 20/20 N (confirmed). Major human correction: CAT-07 × R-006-01 **F → Pp**. CAT-08/09 × A-008-05 **Pp → N**.
 
-**Still pending:** full 170 human dual coding (optional if guide accepts sample); mentor sign-off; case study.
+**Done:** human sample (50 cells); Bahmni HIP case study. **Still open:** mentor sign-off; optional full 170 dual coding if guide rejects sample-only IRR.

@@ -1,27 +1,28 @@
 # Completion roadmap — 3 members (checklist)
 
 **Goal:** Finish the major project (documents-only artefact + report).  
-**As of:** 2026-11-14  
+**As of:** 2026-11-14 (Phase 3–4 in progress / locked artefacts)
 
 **Roles (fill names):**
 
 | Role | Name | Job |
 |---|---|---|
-| **Lead (Member A)** | _________________ | Main path — can do almost everything |
+| **Lead (Member A)** | Surya | Main path — can do almost everything |
 | **Side quest 1 (Member B)** | _________________ | Paper polish + sources/citations |
-| **Side quest 2 (Member C)** | _________________ | Case-study evidence + second coding support |
+| **Side quest 2 (Member C)** | Rahul | Case-study evidence + second coding support |
 
 **Pins (do not change without logging):**  
-rule `v0.3-frozen` · register `register-v0.3-mvp-2026-08-27` · profiles `cat-profiles-v0.1-2026-08-27`
+rule `v0.3-frozen` · register `register-v0.3-mvp-2026-08-27` · profiles `cat-profiles-v0.1-2026-08-27`  
+**Matrix pin:** `main-matrix-reconciled.csv` post human sample → **158 N / 12 P / 0 F**
 
 **End package you must have:**
 
-1. Obligation register
-2. Extended taxonomy
-3. Cross-mapping matrix (human-validated)
-4. Assessment rubric (tried on one real case)
-5. Validation report (updated)
-6. Final report/thesis (`paper/draft-manuscript.md` rewritten)
+1. Obligation register — **locked MVP**
+2. Extended taxonomy — **locked draft**
+3. Cross-mapping matrix (human-validated sample) — **locked**
+4. Assessment rubric (tried on Bahmni HIP) — **locked** + `rubric/user-guide.md`
+5. Validation report (updated) — **v0.3**
+6. Final report/thesis (`paper/draft-manuscript.md`) — **v0.2 Results updated**
 
 ---
 
@@ -33,14 +34,14 @@ rule `v0.3-frozen` · register `register-v0.3-mvp-2026-08-27` · profiles `cat-p
 - [x] Ask guide (if not done):  
   - [ ] Approve reconciliation (`mapping/reconciliation-record.md`)  
   - [ ] Is Delphi **required** or optional?  
-  - [ ] Can we use a redacted audit / sample evidence pack for case study?
+  - [x] Evidence pack: public Bahmni HIP (MIT) — used
 - [x] Create a shared folder note: “Guide said: _______________”
 
-**Exit:** Everyone can say the one-sentence end product.
+**Exit:** Everyone can say the one-sentence end product. **Done.**
 
 ---
 
-## Phase 1 — Human trust on the matrix (Days 1–3) — CRITICAL
+## Phase 1 — Human trust on the matrix (Days 1–3) — CRITICAL — **DONE**
 
 ### Lead (A) + Member C — **DONE 2026-11-14**
 
@@ -52,20 +53,18 @@ rule `v0.3-frozen` · register `register-v0.3-mvp-2026-08-27` · profiles `cat-p
 
 ### Member B (side quest)
 
-- [ ] Prepare “what we show guide” tab list (overview, matrix.md, gap1, human-sample-results)
-- [ ] Write 5 bullet “progress since Review 1” for the final report intro
+- [x] Prepare “what we show guide” tab list (overview, matrix.md, gap1, human-sample-results)
+- [ ] Write 5 bullet “progress since Review 1” for the final report intro *(optional polish)*
 
-**Exit:** Sample dual-human coding done + Gap 1 undisputed. **→ Phase 2 case study next.**
+**Exit:** Sample dual-human coding done + Gap 1 undisputed. **Met.**
 
 ---
 
-## Phase 2 — Case study (Days 2–5) — CRITICAL
-
-**Purpose:** Prove a developer/team can *use* register + matrix + rubric on real evidence.
+## Phase 2 — Case study (Days 2–5) — CRITICAL — **DONE**
 
 ### Member C (owns evidence pack) — **DONE 2026-11-14**
 
-- [x] Evidence pack selected: **Bahmni India Distro HIP** (`openmrs-module-hip` + `hip-service`, MIT, public)
+- [x] Evidence pack: **Bahmni India Distro HIP** (`openmrs-module-hip` + `hip-service`, MIT, public)
 - [x] Indexed 10 files in `validation/case-study-evidence-index.md`
 - [x] Public MIT — no redaction blocker
 
@@ -76,63 +75,60 @@ rule `v0.3-frozen` · register `register-v0.3-mvp-2026-08-27` · profiles `cat-p
 - [x] Report written: `validation/case-study-report.md`
 - [x] Validation report bumped to v0.3
 
-**Exit:** Case study complete. **→ Phase 3 lock deliverables + Phase 4 paper polish.**
+**Exit:** Case study complete. **Met.**
 
 ---
 
-## Phase 3 — Lock deliverables 1–5 (Days 4–6)
+## Phase 3 — Lock deliverables 1–5 (Days 4–6) — **DONE 2026-11-14**
 
 ### Lead (A)
 
-- [ ] **Register:** skim all 18 rows; fix unclear wording only if needed (log changes; if meaning changes, note re-code impact)
-- [ ] **Taxonomy:** confirm `extended-taxonomy.md` matches matrix findings
-- [ ] **Matrix:** point final file = `main-matrix-reconciled.csv` (+ human sample note)
-- [ ] **Rubric:** add 1 paragraph “how a developer uses this” (optional short `rubric/user-guide.md`)
-- [ ] **Validation report:** update `validation/validation-report.md` with:  
-  - human coding status  
-  - case study done  
-  - Delphi: skipped / scheduled / done (per guide)
+- [x] **Register:** skimmed; wording unchanged; pin remains `register-v0.3-mvp-2026-08-27`
+- [x] **Taxonomy:** `extended-taxonomy.md` aligned with human matrix (CAT-07 × R-006-01 = Pp)
+- [x] **Matrix:** final file = `main-matrix-reconciled.csv` (+ `human-sample-results.md`)
+- [x] **Rubric:** `rubric/user-guide.md` added
+- [x] **Validation report:** human coding + case study recorded; Delphi = optional / if guide requires
 
 ### Member B
 
-- [ ] Update `validation/coverage-ratio.md` if register unchanged (or note “unchanged”)
-- [ ] Update `validation/project-status.md` checkboxes to current reality
-- [ ] Update `RESEARCH_OVERVIEW.md` § pending → mark finished items
+- [x] `validation/coverage-ratio.md` updated for 158/12/0
+- [x] `validation/project-status.md` current
+- [x] `RESEARCH_OVERVIEW.md` pending → finished items marked
 
 ### Member C
 
-- [ ] HDMP-16-04: leave as org-policy (default) unless guide wants rewrite  
-- [ ] FHIR row: if easy, stamp exact profile note; else leave “partial” as already noted
+- [x] HDMP-16-04: leave as org-policy (default)
+- [x] FHIR row: leave partial stamp as already noted (no meaning change)
 
-**Exit:** All five deliverable files exist and status page says what’s final vs draft.
+**Exit:** All five deliverable files exist and status page says what’s final vs draft. **Met.**
 
 ---
 
-## Phase 4 — Final report / thesis (Days 5–8)
+## Phase 4 — Final report / thesis (Days 5–8) — **IN PROGRESS**
 
 ### Member B (owns paper polish) + Lead reviews
 
-- [ ] Rewrite `paper/draft-manuscript.md` in **team voice** (remove “agent draft” tone)
-- [ ] Keep counts exact: 170 cells, 156 N / 13 P / 1 F, Gap 1 = 20/20 N
-- [ ] Keep scope line: pattern ≠ legal compliance
-- [ ] κ: call it **exploratory** unless full human–human κ is computed
-- [ ] Add Future work: “MCP / tooling possible later; out of scope for this project”
-- [ ] Fix `paper/references.md` against `sources.md`
-- [ ] Verify Bašić = **v4, 21 studies** everywhere
+- [x] Rewrite Results in `paper/draft-manuscript.md` + `paper/05-results.md` (team voice / current evidence)
+- [x] Counts exact: **170 cells, 158 N / 12 P / 0 F**, Gap 1 = 20/20 N
+- [x] Scope line: pattern ≠ legal compliance
+- [x] κ: **exploratory** agent; human sample 92% primary trust signal
+- [x] Future work: MCP / tooling later; out of scope
+- [ ] Fix `paper/references.md` against `sources.md` *(remaining polish)*
+- [x] Verify Bašić = **v4, 21 studies** in Results/abstract/conclusion
 
 ### Member C
 
-- [ ] Proofread once for clarity (no jargon without explanation)
-- [ ] Check all file links in manuscript appendix still work
-- [ ] Prepare college submission format if required (PDF export, cover page, etc.)
+- [ ] Proofread once for clarity
+- [ ] Check all file links in manuscript appendix
+- [ ] Prepare college submission format if required
 
 ### Lead (A)
 
-- [ ] Final read of whole manuscript
-- [ ] Decision log entry: “Project completion package frozen for submission”
-- [ ] Sync public artefact repo if needed (no PDFs)
+- [x] Results + status consistency pass
+- [x] Decision log: Phase 3–4 lock entry
+- [ ] Sync public artefact repo after this pass
 
-**Exit:** One submission-ready report + artefact folder.
+**Exit:** One submission-ready report + artefact folder — **pending mentor + final formatting**.
 
 ---
 
@@ -152,8 +148,8 @@ rule `v0.3-frozen` · register `register-v0.3-mvp-2026-08-27` · profiles `cat-p
 
 ### MCP (NONE of you during major project)
 
-- [ ] Explicitly **do not build** now  
-- [ ] One paragraph under Future work only
+- [x] Explicitly **do not build** now  
+- [x] One paragraph under Future work only
 
 ---
 
@@ -170,14 +166,14 @@ rule `v0.3-frozen` · register `register-v0.3-mvp-2026-08-27` · profiles `cat-p
 ## Definition of Done (tick all)
 
 - [ ] Guide OK with reconciliation (or written instruction to change cells)
-- [ ] Human coding sample (or full) completed and logged
-- [ ] Case study report exists with rubric scores
-- [ ] Validation report updated
-- [ ] Five deliverable files clearly identified
-- [ ] Final manuscript in team voice, counts correct
+- [x] Human coding sample completed and logged
+- [x] Case study report exists with rubric scores
+- [x] Validation report updated
+- [x] Five deliverable files clearly identified
+- [ ] Final manuscript in team voice, counts correct *(Results done; full voice polish optional)*
 - [ ] Sources/references consistent
-- [ ] No claim of legal compliance; no WASA-keyed rows; no MCP as deliverable
-- [ ] Team can demo: register → matrix → rubric → case-study scores in 10 minutes
+- [x] No claim of legal compliance; no WASA-keyed rows; no MCP as deliverable
+- [x] Team can demo: register → matrix → rubric → case-study scores in 10 minutes
 
 ---
 
@@ -195,13 +191,5 @@ rule `v0.3-frozen` · register `register-v0.3-mvp-2026-08-27` · profiles `cat-p
 | MCP | Future only | Future only | Future only |
 
 ---
-
-## Start tomorrow morning (first 5 checkboxes)
-
-1. [ ] Fill names in roles table
-2. [ ] All three read overview together
-3. [ ] Message / meet guide on reconciliation + Delphi + case evidence
-4. [ ] C starts evidence pack list
-5. [ ] A + C schedule coding session for Gap 1 + sample columns
 
 **Follow this file:** `validation/COMPLETION_ROADMAP.md`

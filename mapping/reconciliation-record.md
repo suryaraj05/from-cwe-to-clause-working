@@ -71,4 +71,4 @@ Detail: [`human-sample-results.md`](human-sample-results.md).
 
 ## Status
 
-Agent reconciliation + **human sample validation done**. Mentor sign-off and case study still open.
+Agent reconciliation + **human sample validation done** + **Bahmni HIP case study done**. Mentor sign-off still open (esp. CAT-07 × R-006-01 F→Pp).

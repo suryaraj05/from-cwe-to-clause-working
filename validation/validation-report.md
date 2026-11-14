@@ -79,7 +79,7 @@ MVP register coverage documentary only. Nickerson subjective conditions still pe
 | Mentor sign-off | Pending |
 | Expert Delphi | Optional / if required |
 | Full 170 human dual coding | Optional |
-| Manuscript cite case study | Next (paper polish) |
+| Manuscript cite case study | **Done** (`paper/05-results.md`, `draft-manuscript.md` v0.2) |
 
 ---
 

@@ -1,12 +1,12 @@
 ﻿# Coverage ratio (documentary — MVP scope)
 
 **Purpose:** Hevner evaluation metric — how much of the targeted regulatory surface the obligation register currently captures.  
-**Status:** MVP counts only; **not** a claim of exhaustive DPDP/ABDM codification.  
+**Status:** MVP counts; **unchanged register** (`register-v0.3-mvp-2026-08-27`); matrix counts refreshed after human sample (2026-11-14).  
 **Register pin:** `register-v0.3-mvp-2026-08-27`
 
 ---
 
-## Counts (2026-08-27)
+## Counts
 
 | Metric | Value | Notes |
 |---|---|---|
@@ -23,7 +23,7 @@
 | Family | MVP rows | In matrix | Consensus non-`not_visible` cells |
 |---|---|---|---|
 | Consent / notice (Act s.6, Rules r.3) | 6 | 6 | 2 partial (CAT-05×A-006-01; CAT-06×A-006-06) |
-| Security safeguards (Act s.8(5), Rules r.6(1)(a)) | 2 | 2 | 11 partial + 1 full (A-008-05 column; R-006-01 exceptions) |
+| Security safeguards (Act s.8(5), Rules r.6(1)(a)) | 2 | 2 | 10 partial (A-008-05: 8 Pp/Pd; R-006-01: CAT-05 + CAT-07) — **no** full |
 | Access logging (Rules r.6(1)(c), HDMP 27.5(a)) | 2 | 2 | **0** — Gap 1 (20/20 `not_visible`) |
 | Breach (Act s.8(6), Rules r.7) | 3 | 3 | 0 |
 | Retention / erasure (Act s.8(7)) | 1 | 1 | 0 |
@@ -58,15 +58,17 @@ MVP: **one conformance row** (profile/`StructureDefinition` expectation). Full I
 
 ---
 
-## Matrix visibility ratio (Gap 1 relevant)
+## Matrix visibility ratio (post human sample, 2026-11-14)
 
 Among **170** reconciled cells:
 
 | Consensus | *n* | % |
 |---|---|---|
-| `not_visible` | 156 | 91.8% |
-| `partially_covered` | 13 | 7.6% |
-| `fully_covered` | 1 | 0.6% |
+| `not_visible` | **158** | 92.9% |
+| `partially_covered` | **12** | 7.1% |
+| `fully_covered` | **0** | 0% |
+
+Earlier agent consensus was 156 N / 13 P / 1 F. Human sample adjudication removed the sole `fully_covered` cell (CAT-07 × R-006-01 → Pp) and two A-008-05 partials (CAT-08/09 → N).
 
 **Interpretation:** For the MVP obligation set, Bašić’s ten CWE-shaped categories **do not** collectively surface most Indian regulatory observables. Logging columns are uniformly `not_visible` — the strongest structural gap.
 
@@ -74,7 +76,7 @@ Among **170** reconciled cells:
 
 ## Reporting guidance (paper)
 
-- Report **MVP register size** and **matrix counts** as measured.  
+- Report **MVP register size** and **matrix counts** as measured (158/12/0).  
 - Do **not** claim “X% of DPDP compliance” without a defined denominator agreed with mentor.  
 - Treat this file as **instrument scope transparency**, not a compliance score.
 
