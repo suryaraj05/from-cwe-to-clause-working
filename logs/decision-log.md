@@ -37,3 +37,4 @@
 | 2026-08-27 | **Integrated manuscript** `paper/draft-manuscript.md` v0.1 — single read-through draft for thesis; section splits retained | User: best agent deliverable | `paper/draft-manuscript.md`, `paper/README.md` |
 | 2026-08-27 | **Research overview** `RESEARCH_OVERVIEW.md` — complete document: problem, work done, outcomes, pending, end goal | User request | `RESEARCH_OVERVIEW.md` |
 | 2026-11-14 | **Human sample coding** (Surya+Rahul): 50 cells, 92% agree; Gap 1 unanimous N; 4 disagreements adjudicated; CAT-07×R-006-01 F→Pp; CAT-08/09×A-008-05 Pp→N; matrix counts → 158N/12P/0F | Phase 1 completion | `human-sample-results.md`, `main-matrix-reconciled.csv` |
+| 2026-11-14 | **Case study evidence pack:** Bahmni India Distro HIP (`openmrs-module-hip` + `hip-service`); 10 public MIT files indexed; rubric scoring worksheets issued | Phase 2 start | `case-study-evidence-index.md`, `case-study-scorer-A/B.md` |

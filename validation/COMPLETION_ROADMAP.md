@@ -63,28 +63,24 @@ rule `v0.3-frozen` · register `register-v0.3-mvp-2026-08-27` · profiles `cat-p
 
 **Purpose:** Prove a developer/team can *use* register + matrix + rubric on real evidence.
 
-### Member C (owns evidence pack)
+### Member C (owns evidence pack) — **DONE 2026-11-14**
 
-- [ ] Collect **one** evidence pack (any of these is OK):  
-  - redacted hospital/healthtech audit report, **or**  
-  - design + security notes for a fictional-but-realistic clinic module written by the team, **or**  
-  - public ABDM/sandbox docs + a described module (weaker, but workable if guide allows)
-- [ ] List files in `validation/case-study-evidence-index.md` (create): name, date, what it covers
-- [ ] Confirm permission / redaction if real org data
+- [x] Evidence pack selected: **Bahmni India Distro HIP** (`openmrs-module-hip` + `hip-service`, MIT, public)
+- [x] Indexed 10 files in `validation/case-study-evidence-index.md`
+- [x] Public MIT — no redaction blocker
 
-### Lead (A) — apply rubric
+### Lead (A) — apply rubric — **DO NOW**
 
-- [ ] Follow `rubric/scoring-protocol.md`
-- [ ] Score **all 17 matrix obligations** → `validation/case-study-report.md` (create from template in `validation/case-study.md`)
-- [ ] Always score logging rows (Gap 1)
-- [ ] Use matrix only as **hints**, not automatic Pass
+- [ ] Read `validation/HOWTO-case-study-scoring.md`
+- [ ] Fill `validation/case-study-scorer-A.md` (all 17 + Gap 1)
+- [ ] Cite GitHub file + behaviour; matrix = hints only
 
-### Member B — second rater on case study
+### Member B — second rater — **DO NOW**
 
-- [ ] Independently score the **same** 17 rows (or at least Gap 1 + 5 hard ones: consent, logging, breach, FHIR, encryption)
-- [ ] Reconcile with A; log disagreements
+- [ ] Fill `validation/case-study-scorer-B.md` (min: Gap 1 + encryption + consent + FHIR + Health ID)
+- [ ] Reconcile with A in `validation/case-study-compare.md`
 
-**Exit:** One case-study report with scores + short narrative (“what CWE-only review would miss”).
+**Exit:** Compare complete → agent writes `case-study-report.md`.
 
 ---
 
